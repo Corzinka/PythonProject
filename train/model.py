@@ -1,5 +1,30 @@
 import torch
 
+class ConcatModel(torch.nn.Module):
+    def __init__(self, num_classes, hidden_dim=128):
+        super().__init__()
+
+        # === classifier ===
+        self.classifier = torch.nn.Sequential(
+            torch.nn.Linear(hidden_dim, 128),
+            torch.nn.LayerNorm(80),
+            torch.nn.GELU(),
+            torch.nn.Dropout(0.3),
+
+            torch.nn.Linear(128, 16),
+            torch.nn.GELU(),
+            torch.nn.Dropout(0.2),
+
+            torch.nn.Linear(64, num_classes)
+        )
+
+    def forward(self, esm, fp, phys):
+        cat = torch.cat([esm, fp, phys], dim=1)
+
+        return self.classifier(cat)
+
+
+
 class AttentionFusionModel(torch.nn.Module):
     def __init__(self, esm_dim, fp_dim, phys_dim, num_classes, hidden_dim=128, num_heads=4):
         super().__init__()
@@ -49,6 +74,7 @@ class AttentionFusionModel(torch.nn.Module):
 
         # делаем "токены"
         # shape: (batch, 3, hidden_dim)
+        # tokens = torch.stack([e, f, p], dim=1)
         tokens = torch.stack([e, f, p], dim=1)
 
         # добавляем CLS токен

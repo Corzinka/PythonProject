@@ -1,4 +1,5 @@
 import numpy as np
+from sklearn.model_selection import train_test_split
 import torch
 import torch.nn.functional as F
 from sklearn.metrics import ( 
@@ -12,26 +13,28 @@ from copy import deepcopy
 
 from utils import get_batches
 
-def predict_with_uncertainty(model, esm, fp, phys, n_samples=20):
-    model.train()  # ВАЖНО: включает dropout
+# ==========================================================
+# train/validation split
 
-    preds = []
+def data_slpit(esm, fingerprints, physchem, dataframe, device):
+    indices = np.arange(len(dataframe))
 
-    with torch.no_grad():
-        for _ in range(n_samples):
-            logits = model(esm, fp, phys)
-            probs = torch.softmax(logits, dim=1)
-            preds.append(probs.unsqueeze(0))
+    train_idx, val_idx = train_test_split(
+        indices,
+        test_size=0.2,
+        random_state=42,
+        stratify=dataframe['label'].values
+    )
 
-    preds = torch.cat(preds, dim=0)  # (n_samples, batch, num_classes)
+    # split всех фичей
+    esm_train, esm_val = esm[train_idx], esm[val_idx]
+    fp_train, fp_val = fingerprints[train_idx], fingerprints[val_idx]
+    phys_train, phys_val = physchem[train_idx], physchem[val_idx]
 
-    mean_probs = preds.mean(dim=0)
-    std_probs = preds.std(dim=0)
+    y_train = torch.tensor(dataframe['label'].values[train_idx], dtype=torch.long, device=device)
+    y_val   = torch.tensor(dataframe['label'].values[val_idx], dtype=torch.long, device=device)
 
-    # uncertainty = среднее std по классам
-    uncertainty = std_probs.mean(dim=1)
-
-    return mean_probs, uncertainty
+    return esm_train, esm_val, fp_train, fp_val, phys_train, phys_val, y_train, y_val
 
 # =========================================
 # training loop
@@ -145,3 +148,36 @@ def train_model(
     model.load_state_dict(best_model)
 
     return model
+
+
+
+def predict_with_uncertainty(model, esm, fp, phys, n_samples=20):
+    model.train()  # ВАЖНО: включает dropout
+
+    preds = []
+
+    with torch.no_grad():
+        for _ in range(n_samples):
+            logits = model(esm, fp, phys)
+            probs = torch.softmax(logits, dim=1)
+            preds.append(probs.unsqueeze(0))
+
+    preds = torch.cat(preds, dim=0)  # (n_samples, batch, num_classes)
+
+    mean_probs = preds.mean(dim=0)
+    std_probs = preds.std(dim=0)
+
+    # uncertainty = среднее std по классам
+    uncertainty = std_probs.mean(dim=1)
+
+    return mean_probs, uncertainty
+
+def select_candidates(mean_probs, uncertainty, k_best=50, k_uncertain=50):
+    confidence = mean_probs.max(dim=1).values
+
+    best_idx = torch.topk(confidence, k_best).indices
+    uncertain_idx = torch.topk(uncertainty, k_uncertain).indices
+
+    selected_idx = torch.unique(torch.cat([best_idx, uncertain_idx]))
+
+    return selected_idx
