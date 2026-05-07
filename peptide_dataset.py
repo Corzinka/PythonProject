@@ -1,3 +1,4 @@
+import numpy as np
 import pandas as pd
 
 def create_datasets(paths, name_file):
@@ -29,10 +30,21 @@ def create_datasets(paths, name_file):
     combined_df.to_excel(name_file, index=False)
     print(f'save in {name_file}')
 
-train_paths = ['data/Anticancer_main/Anticancer_main_train.xlsx', 'data/Antioxidant/train.xlsx']
-#train_paths = ['data/Antibacterial/Antibacteria_train.xlsx', 'data/Anticancer_main/Anticancer_main_train.xlsx', 'data/Antioxidant/train.xlsx']
-test_paths = ['data/Anticancer_main/Anticancer_main_test.xlsx', 'data/Antioxidant/test.xlsx']
-#test_paths = ['data/Antibacterial/Antibacteria_test.xlsx', 'data/Anticancer_main/Anticancer_main_test.xlsx', 'data/Antioxidant/test.xlsx']
+# ==========================================================
+
+train_paths = [
+    'data/Anticancer_main/Anticancer_main_train.xlsx',
+    'data/Antioxidant/train.xlsx',
+]
+
+# ==========================================================
+
+test_paths = [
+    'data/Anticancer_main/Anticancer_main_test.xlsx',
+    'data/Antioxidant/test.xlsx',
+]
+
+# ==========================================================
 
 create_datasets(train_paths, 'train.xlsx')
 create_datasets(test_paths, 'test.xlsx')

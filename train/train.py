@@ -13,10 +13,25 @@ from copy import deepcopy
 
 from utils import get_batches
 
+import matplotlib.pyplot as plt
+
+def global_importance(attentions):
+    all_cls = []
+
+    for attn in attentions:
+        cls_attn = attn[:, :, 0, :]  # (batch, heads, tokens)
+        cls_attn = cls_attn.mean(dim=1)  # по головам
+        all_cls.append(cls_attn)
+
+    all_cls = torch.cat(all_cls, dim=0)
+    mean_importance = all_cls.mean(dim=0).cpu().numpy()
+
+    return mean_importance
+
 # ==========================================================
 # train/validation split
 
-def data_slpit(esm, fingerprints, physchem, dataframe, device):
+def data_slpit(esm, fingerprints, physchem, dataframe):
     indices = np.arange(len(dataframe))
 
     train_idx, val_idx = train_test_split(
@@ -31,8 +46,8 @@ def data_slpit(esm, fingerprints, physchem, dataframe, device):
     fp_train, fp_val = fingerprints[train_idx], fingerprints[val_idx]
     phys_train, phys_val = physchem[train_idx], physchem[val_idx]
 
-    y_train = torch.tensor(dataframe['label'].values[train_idx], dtype=torch.long, device=device)
-    y_val   = torch.tensor(dataframe['label'].values[val_idx], dtype=torch.long, device=device)
+    y_train = torch.tensor(dataframe['label'].values[train_idx], dtype=torch.long)
+    y_val   = torch.tensor(dataframe['label'].values[val_idx], dtype=torch.long)
 
     return esm_train, esm_val, fp_train, fp_val, phys_train, phys_val, y_train, y_val
 
@@ -44,7 +59,6 @@ def train_model(
     esm, fp, phys, y,
     esm_val, fp_val, phys_val, y_val,
     criterion,
-    device,
     num_classes,
     epochs=50,
     batch_size=64,
@@ -66,7 +80,7 @@ def train_model(
         for b_esm, b_fp, b_phys, b_y in get_batches(esm, fp, phys, y, batch_size):
             optimizer.zero_grad()
 
-            logits = model(b_esm, b_fp, b_phys)
+            logits, attentions = model(b_esm, b_fp, b_phys, return_attention=True)
             loss = criterion(logits, b_y)
 
             loss.backward()
@@ -116,6 +130,7 @@ def train_model(
         val_acc = accuracy_score(val_targets, val_preds)
         val_cm = confusion_matrix(val_targets, val_preds)
 
+        '''
         print(
             f"Epoch {epoch+1:03d} | "
             f"Train ROC_AUC: {train_roc_auc:.4f} | "
@@ -131,6 +146,7 @@ def train_model(
             f"\nConfusion matrix (train):\n{train_cm}"
             f"\nConfusion matrix (val):\n{val_cm}"
         )
+        '''
 
         # ===== EARLY STOPPING =====
         if val_f1 > best_f1:
@@ -152,7 +168,7 @@ def train_model(
 
 
 def predict_with_uncertainty(model, esm, fp, phys, n_samples=20):
-    model.train()  # ВАЖНО: включает dropout
+    model.train()
 
     preds = []
 
@@ -162,12 +178,11 @@ def predict_with_uncertainty(model, esm, fp, phys, n_samples=20):
             probs = torch.softmax(logits, dim=1)
             preds.append(probs.unsqueeze(0))
 
-    preds = torch.cat(preds, dim=0)  # (n_samples, batch, num_classes)
+    preds = torch.cat(preds, dim=0)
 
     mean_probs = preds.mean(dim=0)
     std_probs = preds.std(dim=0)
 
-    # uncertainty = среднее std по классам
     uncertainty = std_probs.mean(dim=1)
 
     return mean_probs, uncertainty

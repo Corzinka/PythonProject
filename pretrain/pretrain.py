@@ -33,16 +33,16 @@ hydrophobicity_scale = {
 import esm
 from pretrain import DataIterator as DI
 
-def load_esm_model(device):
+def load_esm_model():
     model, alphabet = esm.pretrained.esm2_t6_8M_UR50D()
-    return model.to(device), alphabet.get_batch_converter()
+    return model, alphabet.get_batch_converter()
 
-def extract_representations(model, batch_converter, data_iterator, device):
+def extract_representations(model, batch_converter, data_iterator):
     model.eval()
     representations = []
     for batch_data in data_iterator:
         _, _, batch_tokens = batch_converter(batch_data)
-        batch_tokens = batch_tokens.to(device)
+        batch_tokens = batch_tokens
 
         batch_lens = (batch_tokens != 1).sum(1)
 
@@ -56,10 +56,10 @@ def extract_representations(model, batch_converter, data_iterator, device):
 
     return representations
 
-def get_esm(data, device):
-    model, batch_converter = load_esm_model(device)
+def get_esm(data):
+    model, batch_converter = load_esm_model()
     data_iterator = DI.DataIterator(data, batch_size)
-    result = extract_representations(model, batch_converter, data_iterator, device)
+    result = extract_representations(model, batch_converter, data_iterator)
     return torch.stack(result).float()
 
 # ==========================================================
@@ -73,11 +73,11 @@ def get_mol_from_seq(data):
    mols = mol_transformer.transform(data)
    return mols
 
-def get_fingerprints(data, device):
+def get_fingerprints(data):
     fp_transformer = ECFPFingerprint()
     mols = get_mol_from_seq(data)
     result = fp_transformer.transform(mols)
-    return torch.tensor(result, dtype=torch.float32, device=device)
+    return torch.tensor(result, dtype=torch.float32)
 
 # ==========================================================
 # Physchem
@@ -103,13 +103,13 @@ def get_physchem(data):
 
 # ==========================================================
 
-def get_feature(dataframe, feature, device):
+def get_feature(dataframe, feature):
    if feature == 'esm':
       data = [(label, seq) for seq, label in dataframe.values]
-      return get_esm(data, device)
+      return get_esm(data)
    elif feature == 'fingerprint':
       data = dataframe['sequence']
-      return get_fingerprints(data, device) 
+      return get_fingerprints(data) 
    elif feature == 'physchem':
       data = dataframe['sequence']
       return get_physchem(data)

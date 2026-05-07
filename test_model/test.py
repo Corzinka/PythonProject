@@ -42,4 +42,5 @@ def evaluate_model(model, esm, fp, phys, y, num_classes, batch_size):
         "pr_auc": pr_auc,
         "f1_macro": f1,
         "accuracy": acc,
+        "cm": cm,
     }
