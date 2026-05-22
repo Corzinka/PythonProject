@@ -32,17 +32,11 @@ def create_datasets(paths, name_file):
 
 # ==========================================================
 
-train_paths = [
-    'data/Anticancer_main/Anticancer_main_train.xlsx',
-    'data/Antioxidant/train.xlsx',
-]
+train_paths = ['data/Anticancer_main/Anticancer_main_train.xlsx']
 
 # ==========================================================
 
-test_paths = [
-    'data/Anticancer_main/Anticancer_main_test.xlsx',
-    'data/Antioxidant/test.xlsx',
-]
+test_paths = ['data/Anticancer_main/Anticancer_main_test.xlsx']
 
 # ==========================================================
 

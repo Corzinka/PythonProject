@@ -105,7 +105,7 @@ def get_physchem(data):
 
 def get_feature(dataframe, feature):
    if feature == 'esm':
-      data = [(label, seq) for seq, label in dataframe.values]
+      data = [(label, seq) for seq, label in dataframe[['sequence','label']].values]
       return get_esm(data)
    elif feature == 'fingerprint':
       data = dataframe['sequence']

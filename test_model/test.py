@@ -30,7 +30,7 @@ def evaluate_model(model, esm, fp, phys, y, num_classes, batch_size):
     all_probs = np.array(all_probs)
 
     # ===== метрики =====
-    roc_auc = roc_auc_score(all_targets, all_probs, multi_class='ovr', average='macro')
+    # roc_auc = roc_auc_score(all_targets, all_probs, multi_class='ovr', average='macro')
     pr_auc = average_precision_score(F.one_hot(torch.tensor(all_targets, dtype=torch.long), num_classes).numpy(), all_probs, average='weighted')
 
     f1 = f1_score(all_targets, all_preds, average='macro')
@@ -38,7 +38,7 @@ def evaluate_model(model, esm, fp, phys, y, num_classes, batch_size):
     cm = confusion_matrix(all_targets, all_preds)
 
     return {
-        "roc_auc": roc_auc,
+        # "roc_auc": roc_auc,
         "pr_auc": pr_auc,
         "f1_macro": f1,
         "accuracy": acc,

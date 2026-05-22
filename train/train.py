@@ -96,7 +96,7 @@ def train_model(
             
             all_targets.extend(b_y.detach().cpu().numpy())
 
-        train_roc_auc = roc_auc_score(all_targets, np.array(all_probs), multi_class='ovr', average='macro')
+        # train_roc_auc = roc_auc_score(all_targets, np.array(all_probs), multi_class='ovr', average='macro')
         train_pr_auc = average_precision_score(F.one_hot(torch.tensor(all_targets, dtype=torch.long), num_classes).numpy(), all_probs, average='weighted')
 
         train_f1 = f1_score(all_targets, all_preds, average='macro')
@@ -123,7 +123,7 @@ def train_model(
 
                 val_targets.extend(b_y.cpu().numpy())
 
-        val_roc_auc = roc_auc_score(val_targets, np.array(val_probs), multi_class='ovr', average='macro')
+        # val_roc_auc = roc_auc_score(val_targets, np.array(val_probs), multi_class='ovr', average='macro')
         val_pr_auc = average_precision_score(F.one_hot(torch.tensor(val_targets, dtype=torch.long), num_classes).numpy(), val_probs, average='weighted')
 
         val_f1 = f1_score(val_targets, val_preds, average='macro')

@@ -8,7 +8,7 @@ from pretrain.pretrain import get_feature
 from test_model.test import evaluate_model
 
 from train.model import AttentionFusionModel
-from train.train import data_slpit, predict_with_uncertainty, select_candidates, train_model
+from train.train import data_slpit, train_model
 from utils import load_dataframe, normalize_feature
 
 # ==========================================================
@@ -92,12 +92,6 @@ for i in range(iterations):
         patience=7
     )
 
-    # ==========================================================
-    # TODO: predict_with_uncertainty
-    # TODO: select_candidates
-    # TODO: здесь будет docking / MD 
-    # ==========================================================
-
     metrics = evaluate_model(
         model,
         esm_test, fp_test, phys_test, y_test,
@@ -108,16 +102,16 @@ for i in range(iterations):
     results_test.append(metrics)
 
 print("\n===== Результаты тестирования (Средние значения) =====\n")
-print(f"| roc_auc | pr_auc | f1_macro | acc |")
+print(f"| pr_auc | f1_macro | acc |")
 
-roc_auc_arr = np.array([res['roc_auc'] for res in results_test])
+# roc_auc_arr = np.array([res['roc_auc'] for res in results_test])
 pr_auc_arr = np.array([res['pr_auc'] for res in results_test])
 f1_macro_arr = np.array([res['f1_macro'] for res in results_test])
 accuracy_arr = np.array([res['accuracy'] for res in results_test])
 
-mean_roc_auc = np.mean(roc_auc_arr)
+# mean_roc_auc = np.mean(roc_auc_arr)
 mean_pr_auc = np.mean(pr_auc_arr)
 mean_f1_macro = np.mean(f1_macro_arr)
 mean_accuracy = np.mean(accuracy_arr)
 
-print(f"| {mean_roc_auc:.4f} | {mean_pr_auc:.4f} | {mean_f1_macro:.4f} | {mean_accuracy:.4f} |")
+print(f"| {mean_pr_auc:.4f} | {mean_f1_macro:.4f} | {mean_accuracy:.4f} |")
