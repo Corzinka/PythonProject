@@ -83,23 +83,19 @@ def get_fingerprints(data):
 # Physchem
 
 import numpy as np
+from Bio.SeqUtils.ProtParam import ProteinAnalysis
 
 def get_physchem(data):
-    weight = []
-    hydro = []
-
+    result = []
     for seq in data:
-        seq_weight = []
-        seq_hydro = []
-        for aa in seq:
-            molecular_weight, hydrophobicity = hydrophobicity_scale.get(aa, 0.0)
-            seq_weight.append(molecular_weight)
-            seq_hydro.append(hydrophobicity)
-
-        weight.append(np.sum(seq_weight) + 18.08)
-        hydro.append(np.mean(seq_hydro))
-
-    return torch.tensor(np.stack([weight, hydro], axis=1), dtype=torch.float32)
+        X = ProteinAnalysis(seq)
+        props = (X.gravy(),
+                 X.molecular_weight(),
+                 X.isoelectric_point(),
+                 #X.charge_at_pH(),
+                 X.instability_index())
+        result.append(props)
+    return torch.tensor(np.array(result, dtype=np.float32), dtype=torch.float32)
 
 # ==========================================================
 

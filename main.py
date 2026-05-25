@@ -5,7 +5,7 @@ import torch
 
 from pretrain.pretrain import get_feature
 
-from test_model.test import evaluate_model
+from test_model.test import evaluate_model, plot_all_metrics
 
 from train.model import AttentionFusionModel
 from train.train import data_slpit, train_model
@@ -102,16 +102,30 @@ for i in range(iterations):
     results_test.append(metrics)
 
 print("\n===== Результаты тестирования (Средние значения) =====\n")
-print(f"| pr_auc | f1_macro | acc |")
+print(f"| roc_auc | pr_auc | lg_loss | f1 | acc | mcc | pr | recall |")
 
-# roc_auc_arr = np.array([res['roc_auc'] for res in results_test])
+roc_auc_arr = np.array([res['roc_auc'] for res in results_test])
 pr_auc_arr = np.array([res['pr_auc'] for res in results_test])
-f1_macro_arr = np.array([res['f1_macro'] for res in results_test])
-accuracy_arr = np.array([res['accuracy'] for res in results_test])
+lg_loss_arr = np.array([res['lg_loss'] for res in results_test])
+f1_macro_arr = np.array([res['f1'] for res in results_test])
+acc_arr = np.array([res['acc'] for res in results_test])
+mcc_arr = np.array([res['mcc'] for res in results_test])
+pr_arr = np.array([res['pr'] for res in results_test])
+recall_arr = np.array([res['recall'] for res in results_test])
 
-# mean_roc_auc = np.mean(roc_auc_arr)
+all_y_true = np.concatenate([r["y_true"] for r in results_test])
+all_y_prob = np.concatenate([r["y_prob"] for r in results_test])
+all_y_pred = np.concatenate([r["y_pred"] for r in results_test])
+
+mean_roc_auc = np.mean(roc_auc_arr)
 mean_pr_auc = np.mean(pr_auc_arr)
+mean_lg_loss = np.mean(lg_loss_arr)
 mean_f1_macro = np.mean(f1_macro_arr)
-mean_accuracy = np.mean(accuracy_arr)
+mean_acc = np.mean(acc_arr)
+mean_mcc = np.mean(mcc_arr)
+mean_pr = np.mean(pr_arr)
+mean_recall = np.mean(recall_arr)
 
-print(f"| {mean_pr_auc:.4f} | {mean_f1_macro:.4f} | {mean_accuracy:.4f} |")
+print(f"| {mean_roc_auc:.4f} | {mean_pr_auc:.4f} | {mean_lg_loss:.4f} | {mean_f1_macro:.4f} | {mean_acc:.4f} | {mean_mcc:.4f} | {mean_pr:.4f} | {mean_recall:.4f} |")
+
+plot_all_metrics(all_y_true, all_y_prob, all_y_pred)

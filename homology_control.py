@@ -10,7 +10,7 @@ def create_fasta_files(train_df, test_df):
             f.write(f">{idx}\n{row.sequence}\n")
 
 # cd-hit -i train_peptides.fasta -o train_clustered -c 0.7 -n 4
-# cd-hit -i test_peptides.fasta -o test_clustered -c 0.7 -n 4
+# cd-hit -i test_peptides.fasta -o test_clustered -c 0.7 -n 4 -l 3
 
 # "train_clustered.clstr"
 

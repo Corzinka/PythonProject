@@ -9,7 +9,7 @@ from homology_control import create_cluster
 from pretrain.pretrain import get_feature
 from train.model import AttentionFusionModel
 from train.train import train_model
-from test_model.test import evaluate_model
+from test_model.test import evaluate_model, plot_all_metrics
 from utils import load_dataframe, normalize_feature
 
 
@@ -200,7 +200,7 @@ for fold, (train_idx, val_idx) in enumerate(
 
 print("\n===== CV RESULTS =====\n")
 
-for metric in ["pr_auc", "f1_macro"]:
+for metric in ["pr_auc", "f1"]:
     arr = np.array([m[metric] for m in cv_results])
 
     print(
@@ -277,10 +277,10 @@ test_metrics = evaluate_model(
 )
 
 for k, v in test_metrics.items():
-    if (k!='cm'):
+    if (k not in ['cm', "y_true", "y_prob", "y_pred"]):
         print(f"{k}: {v:.4f}")
-    print(v)
 
+plot_all_metrics(test_metrics["y_true"], test_metrics["y_prob"], test_metrics["y_pred"])
 
 # ==========================================================
 # save final model
