@@ -1,44 +1,82 @@
-import numpy as np
 import pandas as pd
+import numpy as np
 
-def create_datasets(paths, name_file):
-    dataframes = []
-    n_classes = 1
-    for path in paths:
-        dataframe = pd.read_excel(path)
-        dataframe.loc[dataframe['label'] == 1, 'label'] = n_classes
+def create_datasets(path, name_file, max_size=None):
+    dataframe = pd.read_excel(path)
 
-        dataframes.append(dataframe)
-        n_classes += 1
+    # Если max_size не задан, сохраняем весь датасет перемешанный
+    if max_size is not None and dataframe.shape[0] > max_size:
+        # Определяем количество классов и сколько строк брать с каждого класса
+        classes = dataframe['label'].unique()
+        n_classes = len(classes)
+        per_class_limit = max_size // n_classes  # Целочисленное деление
 
-    # Объединяем все классы в один мультиклассовый датасет
-    multi_class_train = pd.concat(dataframes, ignore_index=True)
+        # Сохраняем по per_class_limit строк для каждого класса
+        balanced_list = []
+        for cls in classes:
+            cls_data = dataframe[dataframe['label'] == cls]
+            if cls_data.shape[0] > per_class_limit:
+                cls_sample = cls_data.sample(n=per_class_limit, random_state=42)
+            else:
+                cls_sample = cls_data
+            balanced_list.append(cls_sample)
+        
+        dataframe = pd.concat(balanced_list, ignore_index=True)
+        dataframe = dataframe.sample(frac=1, random_state=42).reset_index(drop=True)  # Перемешиваем
 
-    duplicates = multi_class_train.duplicated()
-    print("Есть ли дубликаты строк: ", duplicates.any())
+    # Вывод статистики
+    print(path)
+    for n_class in dataframe['label'].unique():
+        print(f'Класс {n_class}: {dataframe[dataframe["label"] == n_class].shape[0]}')
+    print('Всего строк:', dataframe.shape[0])
 
-    # Удаление дубликатов по всем столбцам
-    multi_class_train = multi_class_train.drop_duplicates(keep='last')
-
-    # Перемешиваем итоговый датасет (по желанию)
-    combined_df = multi_class_train.sample(frac=1).reset_index(drop=True)
-
-    for n_class in range(n_classes):
-        print(f'{n_class}: ', combined_df[combined_df['label'] == n_class].shape[0])
-    print('all:', combined_df.shape[0])
-
-    combined_df.to_excel(name_file, index=False)
-    print(f'save in {name_file}')
-
-# ==========================================================
-
-train_paths = ['data/Anticancer_main/Anticancer_main_train.xlsx']
-
-# ==========================================================
-
-test_paths = ['data/Anticancer_main/Anticancer_main_test.xlsx']
+    dataframe.to_excel(f"data/{name_file}", index=False)
+    print(f'Сохранено в {name_file}')
 
 # ==========================================================
 
-create_datasets(train_paths, 'train.xlsx')
-create_datasets(test_paths, 'test.xlsx')
+create_datasets('data/Antibacterial/Antibacteria_train.xlsx', 'train_ABE.xlsx')
+create_datasets('data/Antibacterial/Antibacteria_test.xlsx', 'test_ABE.xlsx')
+
+# ==========================================================
+
+create_datasets('data/Anticancer_main/Anticancer_main_train.xlsx', 'train_ACE.xlsx')
+create_datasets('data/Anticancer_main/Anticancer_main_test.xlsx', 'test_ACE.xlsx')
+
+# ==========================================================
+
+create_datasets('data/Antioxidant/train.xlsx', 'train_AOE.xlsx')
+create_datasets('data/Antioxidant/test.xlsx', 'test_AOE.xlsx')
+
+'''
+data/Antibacterial/Antibacteria_train.xlsx
+Класс 0: 6583
+Класс 1: 6583
+Всего строк: 13166
+Сохранено в train_ABE.xlsx
+data/Antibacterial/Antibacteria_test.xlsx
+Класс 0: 1695
+Класс 1: 1695
+Всего строк: 3390
+Сохранено в test_ABE.xlsx
+data/Anticancer_main/Anticancer_main_train.xlsx
+Класс 1: 689
+Класс 0: 689
+Всего строк: 1378
+Сохранено в train_ACE.xlsx
+data/Anticancer_main/Anticancer_main_test.xlsx
+Класс 0: 172
+Класс 1: 172
+Всего строк: 344
+Сохранено в test_ACE.xlsx
+data/Antioxidant/train.xlsx
+Класс 0: 541
+Класс 1: 582
+Всего строк: 1123
+Сохранено в train_AOE.xlsx
+data/Antioxidant/test.xlsx
+Класс 1: 146
+Класс 0: 135
+Всего строк: 281
+Сохранено в test_AOE.xlsx
+'''

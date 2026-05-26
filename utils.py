@@ -3,10 +3,9 @@ import torch
 
 from sklearn.preprocessing import StandardScaler
 
-def load_dataframe(path='.'):
-    train_df = pd.read_excel(f"{path}/train.xlsx")
-    test_df = pd.read_excel(f"{path}/test.xlsx")
-
+def load_dataframe(train_path, test_path):
+    train_df = pd.read_excel(train_path)
+    test_df = pd.read_excel(test_path)
     return train_df, test_df
 
 def get_batches(esm, fp, phys, y, batch_size):
