@@ -35,17 +35,17 @@ def create_datasets(path, name_file, max_size=None):
 
 # ==========================================================
 
-create_datasets('data/Antibacterial/Antibacteria_train.xlsx', 'train_ABE.xlsx')
+create_datasets('data/Antibacterial/Antibacteria_train.xlsx', 'train_ABE.xlsx', max_size=1200)
 create_datasets('data/Antibacterial/Antibacteria_test.xlsx', 'test_ABE.xlsx')
 
 # ==========================================================
 
-create_datasets('data/Anticancer_main/Anticancer_main_train.xlsx', 'train_ACE.xlsx')
+create_datasets('data/Anticancer_main/Anticancer_main_train.xlsx', 'train_ACE.xlsx', max_size=2000)
 create_datasets('data/Anticancer_main/Anticancer_main_test.xlsx', 'test_ACE.xlsx')
 
 # ==========================================================
 
-create_datasets('data/Antioxidant/train.xlsx', 'train_AOE.xlsx')
+create_datasets('data/Antioxidant/train.xlsx', 'train_AOE.xlsx', max_size=2000)
 create_datasets('data/Antioxidant/test.xlsx', 'test_AOE.xlsx')
 
 '''

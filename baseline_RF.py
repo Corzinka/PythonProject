@@ -16,7 +16,7 @@ from sklearn.metrics import (
 from pretrain.pretrain import get_feature
 from utils import normalize_feature
 
-def baseline_RF(train_df, test_df):
+def baseline_RF_func(train_df, test_df):
     # ==========================================================
     # features
 
@@ -74,7 +74,7 @@ def baseline_RF(train_df, test_df):
             "name": "esm-fp",
             "X": np.concatenate([esm, fingerprints], axis=1),
             "y": y,
-            "test": np.concatenate([esm_test, fp_test], axis=1),
+            "X_test": np.concatenate([esm_test, fp_test], axis=1),
             "y_test": y_test,
         },
         { 
@@ -107,7 +107,7 @@ def baseline_RF(train_df, test_df):
     final_results = []
 
     for variant in variants:
-        print(f"\n===== {variant["name"]} =====")
+        print(f"\n===== {variant['name']} =====")
         results_test = []
 
         X = variant["X"]

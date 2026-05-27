@@ -16,7 +16,7 @@ from sklearn.metrics import (
 from pretrain.pretrain import get_feature
 from utils import normalize_feature
 
-def baseline_LightGBM(train_df, test_df):
+def baseline_LightGBM_func(train_df, test_df):
     # ==========================================================
     # features
 
