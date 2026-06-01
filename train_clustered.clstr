@@ -1,2202 +1,1258 @@
 >Cluster 0
-0	100aa, >1142... *
+0	30aa, >803... *
 >Cluster 1
-0	99aa, >41... *
+0	30aa, >831... *
 >Cluster 2
-0	99aa, >320... *
+0	26aa, >108... *
 >Cluster 3
-0	99aa, >391... *
+0	26aa, >636... *
 >Cluster 4
-0	98aa, >527... *
+0	26aa, >684... *
 >Cluster 5
-0	97aa, >1087... *
+0	26aa, >996... *
 >Cluster 6
-0	95aa, >607... *
+0	25aa, >49... *
 >Cluster 7
-0	95aa, >701... *
+0	25aa, >628... *
 >Cluster 8
-0	95aa, >948... *
+0	23aa, >615... *
 >Cluster 9
-0	94aa, >83... *
-1	40aa, >416... at 95.00%
+0	23aa, >918... *
 >Cluster 10
-0	93aa, >73... *
-1	93aa, >895... at 90.32%
-2	93aa, >906... at 91.40%
-3	82aa, >1118... at 93.90%
+0	22aa, >40... *
 >Cluster 11
-0	93aa, >610... *
+0	22aa, >432... *
 >Cluster 12
-0	91aa, >780... *
+0	22aa, >666... *
 >Cluster 13
-0	91aa, >833... *
+0	22aa, >839... *
 >Cluster 14
-0	90aa, >43... *
-1	88aa, >98... at 71.59%
-2	88aa, >1191... at 72.73%
+0	5aa, >740... at 80.00%
+1	22aa, >905... *
 >Cluster 15
-0	90aa, >807... *
+0	21aa, >450... *
 >Cluster 16
-0	88aa, >50... *
+0	21aa, >633... *
 >Cluster 17
-0	88aa, >805... *
+0	21aa, >722... *
 >Cluster 18
-0	88aa, >844... *
+0	21aa, >755... *
 >Cluster 19
-0	86aa, >481... *
+0	20aa, >422... *
 >Cluster 20
-0	85aa, >964... *
+0	19aa, >632... *
+1	5aa, >1057... at 100.00%
 >Cluster 21
-0	84aa, >243... *
+0	19aa, >1087... *
 >Cluster 22
-0	84aa, >318... *
+0	18aa, >113... *
 >Cluster 23
-0	84aa, >519... *
-1	84aa, >1138... at 98.81%
+0	18aa, >128... *
+1	4aa, >478... at 100.00%
 >Cluster 24
-0	84aa, >1034... *
+0	18aa, >189... *
 >Cluster 25
-0	84aa, >1068... *
+0	5aa, >629... at 80.00%
+1	18aa, >990... *
 >Cluster 26
-0	83aa, >107... *
+0	18aa, >1021... *
 >Cluster 27
-0	83aa, >739... *
+0	17aa, >13... *
 >Cluster 28
-0	83aa, >742... *
+0	17aa, >36... *
 >Cluster 29
-0	82aa, >435... *
+0	17aa, >167... *
 >Cluster 30
-0	82aa, >691... *
+0	16aa, >33... at 87.50%
+1	17aa, >261... *
 >Cluster 31
-0	80aa, >411... *
-1	31aa, >1186... at 80.65%
+0	17aa, >537... *
 >Cluster 32
-0	80aa, >574... *
+0	17aa, >593... *
 >Cluster 33
-0	80aa, >975... *
+0	10aa, >587... at 100.00%
+1	17aa, >671... *
+2	8aa, >1106... at 100.00%
 >Cluster 34
-0	79aa, >294... *
+0	17aa, >700... *
 >Cluster 35
-0	79aa, >413... *
-1	60aa, >656... at 85.00%
+0	17aa, >1060... *
 >Cluster 36
-0	78aa, >79... *
+0	16aa, >47... *
 >Cluster 37
-0	78aa, >111... *
+0	16aa, >401... *
 >Cluster 38
-0	78aa, >442... *
+0	16aa, >471... *
+1	5aa, >1072... at 80.00%
 >Cluster 39
-0	57aa, >310... at 98.25%
-1	78aa, >479... *
+0	16aa, >570... *
 >Cluster 40
-0	78aa, >677... *
+0	16aa, >833... *
 >Cluster 41
-0	78aa, >707... *
+0	16aa, >937... *
 >Cluster 42
-0	78aa, >717... *
+0	16aa, >1098... *
 >Cluster 43
-0	78aa, >836... *
+0	7aa, >2... at 71.43%
+1	4aa, >159... at 100.00%
+2	15aa, >266... *
 >Cluster 44
-0	78aa, >977... *
+0	15aa, >338... *
 >Cluster 45
-0	78aa, >1006... *
+0	15aa, >384... *
 >Cluster 46
-0	33aa, >46... at 75.76%
-1	33aa, >157... at 72.73%
-2	71aa, >538... at 73.24%
-3	67aa, >591... at 79.10%
-4	78aa, >1131... *
+0	15aa, >386... *
 >Cluster 47
-0	77aa, >638... *
->Cluster 48
-0	77aa, >938... *
->Cluster 49
-0	76aa, >59... *
-1	76aa, >159... at 90.79%
-2	33aa, >307... at 81.82%
-3	76aa, >768... at 86.84%
-4	75aa, >920... at 78.67%
-5	75aa, >936... at 77.33%
->Cluster 50
-0	76aa, >69... *
->Cluster 51
-0	76aa, >85... *
->Cluster 52
-0	76aa, >246... *
->Cluster 53
-0	76aa, >263... *
->Cluster 54
-0	75aa, >231... at 100.00%
-1	76aa, >354... *
->Cluster 55
-0	76aa, >364... *
->Cluster 56
-0	76aa, >603... *
->Cluster 57
-0	76aa, >716... *
->Cluster 58
-0	76aa, >721... *
->Cluster 59
-0	76aa, >925... *
->Cluster 60
-0	75aa, >39... *
->Cluster 61
-0	51aa, >55... at 90.20%
-1	75aa, >112... *
-2	75aa, >646... at 92.00%
->Cluster 62
-0	75aa, >468... *
->Cluster 63
-0	75aa, >840... *
->Cluster 64
-0	75aa, >872... *
->Cluster 65
-0	75aa, >987... *
->Cluster 66
-0	75aa, >1124... *
->Cluster 67
-0	74aa, >72... *
->Cluster 68
-0	74aa, >381... *
->Cluster 69
-0	74aa, >457... *
->Cluster 70
-0	74aa, >518... *
->Cluster 71
-0	74aa, >1042... *
->Cluster 72
-0	73aa, >117... *
-1	66aa, >571... at 92.42%
-2	66aa, >1150... at 95.45%
->Cluster 73
-0	14aa, >143... at 71.43%
-1	73aa, >309... *
->Cluster 74
-0	73aa, >910... *
->Cluster 75
-0	73aa, >1130... *
->Cluster 76
-0	72aa, >113... *
->Cluster 77
-0	72aa, >171... *
->Cluster 78
-0	72aa, >288... *
->Cluster 79
-0	72aa, >369... *
->Cluster 80
-0	72aa, >500... *
->Cluster 81
-0	72aa, >515... *
->Cluster 82
-0	72aa, >537... *
-1	10aa, >930... at 100.00%
->Cluster 83
-0	72aa, >634... *
->Cluster 84
-0	63aa, >30... at 88.89%
-1	72aa, >637... *
->Cluster 85
-0	72aa, >647... *
->Cluster 86
-0	72aa, >649... *
->Cluster 87
-0	72aa, >837... *
->Cluster 88
-0	72aa, >865... *
->Cluster 89
-0	71aa, >110... *
-1	46aa, >554... at 100.00%
->Cluster 90
-0	71aa, >271... *
->Cluster 91
-0	71aa, >306... *
->Cluster 92
-0	70aa, >149... at 78.57%
-1	70aa, >241... at 82.86%
-2	59aa, >279... at 77.97%
-3	71aa, >312... *
-4	71aa, >315... at 77.46%
-5	71aa, >681... at 91.55%
-6	61aa, >766... at 77.05%
-7	61aa, >770... at 78.69%
-8	71aa, >866... at 95.77%
-9	62aa, >932... at 72.58%
-10	59aa, >943... at 72.88%
-11	71aa, >1038... at 94.37%
-12	71aa, >1069... at 83.10%
-13	61aa, >1154... at 86.89%
-14	64aa, >1174... at 73.44%
->Cluster 93
-0	14aa, >223... at 71.43%
-1	71aa, >499... *
->Cluster 94
-0	71aa, >926... *
->Cluster 95
-0	71aa, >1004... *
->Cluster 96
-0	71aa, >1015... *
-1	9aa, >1093... at 77.78%
->Cluster 97
-0	71aa, >1065... *
->Cluster 98
-0	71aa, >1071... *
->Cluster 99
-0	71aa, >1086... *
->Cluster 100
-0	71aa, >1089... *
->Cluster 101
-0	71aa, >1094... *
->Cluster 102
-0	71aa, >1160... *
->Cluster 103
-0	70aa, >4... *
->Cluster 104
-0	70aa, >298... *
->Cluster 105
-0	70aa, >329... *
-1	58aa, >421... at 72.41%
-2	65aa, >501... at 76.92%
-3	70aa, >547... at 92.86%
-4	57aa, >1184... at 70.18%
->Cluster 106
-0	70aa, >412... *
->Cluster 107
-0	70aa, >447... *
->Cluster 108
-0	70aa, >566... *
->Cluster 109
-0	8aa, >24... at 75.00%
-1	70aa, >666... *
->Cluster 110
-0	70aa, >676... *
->Cluster 111
-0	66aa, >267... at 83.33%
-1	66aa, >420... at 80.30%
-2	63aa, >678... at 82.54%
-3	70aa, >728... *
-4	11aa, >746... at 100.00%
-5	17aa, >750... at 82.35%
-6	70aa, >1072... at 97.14%
->Cluster 112
-0	70aa, >751... *
->Cluster 113
-0	69aa, >660... at 97.10%
-1	70aa, >762... *
->Cluster 114
-0	70aa, >826... *
->Cluster 115
-0	70aa, >851... *
->Cluster 116
-0	70aa, >887... *
->Cluster 117
-0	70aa, >1048... *
->Cluster 118
-0	70aa, >1129... *
->Cluster 119
-0	69aa, >174... *
->Cluster 120
-0	69aa, >199... *
->Cluster 121
-0	69aa, >367... *
->Cluster 122
-0	69aa, >645... *
->Cluster 123
-0	69aa, >675... *
->Cluster 124
-0	69aa, >696... *
->Cluster 125
-0	7aa, >484... at 85.71%
-1	8aa, >567... at 87.50%
-2	69aa, >915... *
->Cluster 126
-0	69aa, >1025... *
->Cluster 127
-0	69aa, >1125... *
->Cluster 128
-0	69aa, >1188... *
->Cluster 129
-0	68aa, >250... *
->Cluster 130
-0	21aa, >153... at 100.00%
-1	68aa, >434... *
->Cluster 131
-0	68aa, >459... *
->Cluster 132
-0	68aa, >533... *
->Cluster 133
-0	68aa, >773... *
->Cluster 134
-0	68aa, >953... *
->Cluster 135
-0	68aa, >972... *
->Cluster 136
-0	13aa, >352... at 76.92%
-1	68aa, >1036... *
->Cluster 137
-0	67aa, >70... *
->Cluster 138
-0	67aa, >314... *
-1	47aa, >1013... at 100.00%
->Cluster 139
-0	67aa, >480... *
->Cluster 140
-0	67aa, >624... *
->Cluster 141
-0	67aa, >627... *
->Cluster 142
-0	67aa, >663... *
->Cluster 143
-0	67aa, >832... *
->Cluster 144
-0	53aa, >377... at 88.68%
-1	63aa, >586... at 82.54%
-2	67aa, >892... *
-3	63aa, >1135... at 82.54%
->Cluster 145
-0	67aa, >1112... *
->Cluster 146
-0	66aa, >22... *
->Cluster 147
-0	66aa, >32... *
->Cluster 148
-0	66aa, >125... *
->Cluster 149
-0	66aa, >135... *
->Cluster 150
-0	66aa, >155... *
->Cluster 151
-0	66aa, >228... *
-1	65aa, >478... at 78.46%
-2	66aa, >615... at 96.97%
-3	66aa, >628... at 83.33%
->Cluster 152
-0	66aa, >297... *
->Cluster 153
-0	66aa, >376... *
->Cluster 154
-0	66aa, >387... *
->Cluster 155
-0	66aa, >425... *
->Cluster 156
-0	66aa, >513... *
->Cluster 157
-0	66aa, >570... *
->Cluster 158
-0	66aa, >869... *
->Cluster 159
-0	66aa, >889... *
->Cluster 160
-0	66aa, >1029... *
->Cluster 161
-0	66aa, >1039... *
->Cluster 162
-0	66aa, >1079... *
->Cluster 163
-0	66aa, >1088... *
->Cluster 164
-0	66aa, >1101... *
->Cluster 165
-0	66aa, >1195... *
->Cluster 166
-0	65aa, >1... *
->Cluster 167
-0	65aa, >278... *
->Cluster 168
-0	65aa, >346... *
->Cluster 169
-0	65aa, >525... *
->Cluster 170
-0	65aa, >552... *
->Cluster 171
-0	65aa, >623... *
->Cluster 172
-0	65aa, >868... *
->Cluster 173
-0	65aa, >899... *
->Cluster 174
-0	65aa, >986... *
->Cluster 175
-0	14aa, >829... at 92.86%
-1	62aa, >985... at 100.00%
-2	65aa, >1022... *
->Cluster 176
-0	65aa, >1192... *
->Cluster 177
-0	64aa, >19... *
->Cluster 178
-0	64aa, >422... *
->Cluster 179
-0	36aa, >410... at 91.67%
-1	64aa, >491... *
->Cluster 180
-0	64aa, >497... *
->Cluster 181
-0	64aa, >573... *
->Cluster 182
-0	64aa, >730... *
->Cluster 183
-0	64aa, >974... *
->Cluster 184
-0	64aa, >1055... *
->Cluster 185
-0	63aa, >49... *
->Cluster 186
-0	63aa, >140... *
->Cluster 187
-0	63aa, >366... *
->Cluster 188
-0	63aa, >396... *
-1	61aa, >980... at 70.49%
->Cluster 189
-0	63aa, >441... *
->Cluster 190
-0	63aa, >549... *
->Cluster 191
-0	63aa, >575... *
->Cluster 192
-0	63aa, >618... *
->Cluster 193
-0	63aa, >639... *
->Cluster 194
-0	63aa, >871... *
->Cluster 195
-0	63aa, >940... *
->Cluster 196
-0	63aa, >1017... *
->Cluster 197
-0	62aa, >401... *
->Cluster 198
-0	62aa, >504... *
->Cluster 199
-0	62aa, >541... *
->Cluster 200
-0	62aa, >893... *
->Cluster 201
-0	62aa, >909... *
->Cluster 202
-0	62aa, >969... *
->Cluster 203
-0	62aa, >997... *
->Cluster 204
-0	62aa, >1159... *
->Cluster 205
-0	61aa, >52... *
-1	43aa, >617... at 74.42%
->Cluster 206
-0	30aa, >66... at 100.00%
-1	61aa, >71... *
->Cluster 207
-0	61aa, >328... *
->Cluster 208
-0	61aa, >723... *
->Cluster 209
-0	61aa, >774... *
->Cluster 210
-0	61aa, >914... *
->Cluster 211
-0	61aa, >1062... *
->Cluster 212
-0	60aa, >232... *
->Cluster 213
-0	60aa, >690... *
->Cluster 214
-0	60aa, >1134... *
->Cluster 215
-0	59aa, >0... *
->Cluster 216
-0	59aa, >12... *
-1	57aa, >995... at 94.74%
->Cluster 217
-0	59aa, >123... *
->Cluster 218
-0	59aa, >506... *
->Cluster 219
-0	59aa, >602... *
->Cluster 220
-0	59aa, >1197... *
->Cluster 221
-0	58aa, >165... *
->Cluster 222
-0	58aa, >285... *
->Cluster 223
-0	58aa, >316... *
->Cluster 224
-0	58aa, >394... *
->Cluster 225
-0	58aa, >512... *
->Cluster 226
-0	58aa, >684... *
->Cluster 227
-0	57aa, >973... *
->Cluster 228
-0	56aa, >183... *
->Cluster 229
-0	56aa, >311... *
->Cluster 230
-0	56aa, >1044... *
->Cluster 231
-0	55aa, >520... *
->Cluster 232
-0	55aa, >993... *
->Cluster 233
-0	54aa, >1091... *
->Cluster 234
-0	53aa, >1027... *
->Cluster 235
-0	53aa, >1123... *
->Cluster 236
-0	53aa, >1155... *
->Cluster 237
-0	52aa, >338... *
->Cluster 238
-0	52aa, >536... *
->Cluster 239
-0	52aa, >1052... *
->Cluster 240
-0	51aa, >151... *
->Cluster 241
-0	51aa, >186... *
->Cluster 242
-0	51aa, >1167... *
->Cluster 243
-0	50aa, >17... *
->Cluster 244
-0	50aa, >749... *
->Cluster 245
-0	49aa, >208... *
->Cluster 246
-0	49aa, >227... *
->Cluster 247
-0	49aa, >699... *
->Cluster 248
-0	49aa, >709... *
->Cluster 249
-0	49aa, >1183... *
->Cluster 250
-0	48aa, >240... *
->Cluster 251
-0	22aa, >37... at 90.91%
-1	13aa, >733... at 100.00%
-2	48aa, >850... *
-3	15aa, >1117... at 73.33%
->Cluster 252
-0	48aa, >917... *
->Cluster 253
-0	47aa, >219... *
->Cluster 254
-0	47aa, >244... *
->Cluster 255
-0	47aa, >474... *
->Cluster 256
-0	47aa, >671... *
->Cluster 257
-0	47aa, >1054... *
->Cluster 258
-0	47aa, >1144... *
->Cluster 259
-0	46aa, >51... *
->Cluster 260
-0	46aa, >175... *
->Cluster 261
-0	46aa, >262... *
->Cluster 262
-0	46aa, >370... *
->Cluster 263
-0	46aa, >419... *
->Cluster 264
-0	46aa, >960... *
->Cluster 265
-0	46aa, >1041... *
->Cluster 266
-0	46aa, >1164... *
->Cluster 267
-0	44aa, >150... *
->Cluster 268
-0	44aa, >204... *
->Cluster 269
-0	44aa, >221... *
->Cluster 270
-0	44aa, >349... *
->Cluster 271
-0	44aa, >371... *
->Cluster 272
-0	44aa, >476... *
->Cluster 273
-0	44aa, >662... *
->Cluster 274
-0	44aa, >831... *
->Cluster 275
-0	44aa, >901... *
->Cluster 276
-0	44aa, >1175... *
->Cluster 277
-0	44aa, >1177... *
->Cluster 278
-0	43aa, >58... *
->Cluster 279
-0	43aa, >95... *
->Cluster 280
-0	43aa, >167... *
->Cluster 281
-0	43aa, >260... *
->Cluster 282
-0	43aa, >378... *
->Cluster 283
-0	43aa, >395... *
->Cluster 284
-0	43aa, >521... *
->Cluster 285
-0	43aa, >613... *
->Cluster 286
-0	43aa, >748... *
->Cluster 287
-0	43aa, >834... *
->Cluster 288
-0	43aa, >1172... *
->Cluster 289
-0	42aa, >31... *
->Cluster 290
-0	42aa, >86... *
->Cluster 291
-0	42aa, >258... *
->Cluster 292
-0	42aa, >359... *
->Cluster 293
-0	42aa, >454... *
->Cluster 294
-0	42aa, >621... *
->Cluster 295
-0	42aa, >692... *
->Cluster 296
-0	42aa, >731... *
->Cluster 297
-0	42aa, >763... *
->Cluster 298
-0	42aa, >896... *
->Cluster 299
-0	42aa, >1070... *
->Cluster 300
-0	41aa, >488... *
->Cluster 301
-0	41aa, >711... *
->Cluster 302
-0	41aa, >860... *
->Cluster 303
-0	41aa, >951... *
->Cluster 304
-0	40aa, >116... *
->Cluster 305
-0	40aa, >810... *
-1	32aa, >894... at 87.50%
->Cluster 306
-0	39aa, >68... *
->Cluster 307
-0	39aa, >213... *
->Cluster 308
-0	39aa, >224... *
->Cluster 309
-0	39aa, >324... *
->Cluster 310
-0	39aa, >648... *
->Cluster 311
-0	39aa, >683... *
->Cluster 312
-0	39aa, >737... *
->Cluster 313
-0	39aa, >753... *
->Cluster 314
-0	39aa, >761... *
->Cluster 315
-0	39aa, >879... *
->Cluster 316
-0	39aa, >1136... *
->Cluster 317
-0	38aa, >495... *
-1	38aa, >601... at 86.84%
->Cluster 318
-0	38aa, >550... *
-1	38aa, >924... at 89.47%
->Cluster 319
-0	38aa, >620... *
->Cluster 320
-0	38aa, >907... *
->Cluster 321
-0	38aa, >1053... *
->Cluster 322
-0	37aa, >56... *
->Cluster 323
-0	37aa, >128... *
->Cluster 324
-0	37aa, >206... *
->Cluster 325
-0	37aa, >331... *
->Cluster 326
-0	37aa, >368... *
->Cluster 327
-0	37aa, >679... *
->Cluster 328
-0	37aa, >824... *
->Cluster 329
-0	37aa, >950... *
->Cluster 330
-0	12aa, >225... at 91.67%
-1	24aa, >688... at 70.83%
-2	37aa, >1056... *
->Cluster 331
-0	37aa, >1122... *
->Cluster 332
-0	37aa, >1128... *
->Cluster 333
-0	37aa, >1166... *
->Cluster 334
-0	37aa, >1190... *
->Cluster 335
-0	36aa, >301... *
->Cluster 336
-0	36aa, >561... *
->Cluster 337
-0	36aa, >605... *
->Cluster 338
-0	36aa, >900... *
->Cluster 339
-0	36aa, >956... *
->Cluster 340
-0	36aa, >979... *
->Cluster 341
-0	36aa, >1032... *
->Cluster 342
-0	36aa, >1085... *
->Cluster 343
-0	35aa, >156... *
->Cluster 344
-0	35aa, >189... *
->Cluster 345
-0	35aa, >555... *
->Cluster 346
-0	35aa, >642... *
->Cluster 347
-0	35aa, >757... *
->Cluster 348
-0	35aa, >852... *
->Cluster 349
-0	35aa, >976... *
->Cluster 350
-0	34aa, >121... *
->Cluster 351
-0	34aa, >345... *
-1	7aa, >958... at 100.00%
-2	23aa, >959... at 86.96%
->Cluster 352
-0	34aa, >689... *
->Cluster 353
-0	34aa, >800... *
->Cluster 354
-0	34aa, >808... *
->Cluster 355
-0	34aa, >821... *
->Cluster 356
-0	33aa, >10... *
->Cluster 357
-0	33aa, >20... *
-1	15aa, >296... at 100.00%
-2	15aa, >564... at 93.33%
-3	10aa, >572... at 100.00%
-4	26aa, >604... at 100.00%
-5	15aa, >759... at 93.33%
-6	28aa, >823... at 100.00%
->Cluster 358
-0	33aa, >78... *
->Cluster 359
-0	33aa, >218... *
->Cluster 360
-0	33aa, >326... *
->Cluster 361
-0	33aa, >505... *
-1	23aa, >1046... at 82.61%
->Cluster 362
-0	29aa, >440... at 72.41%
-1	33aa, >516... *
->Cluster 363
-0	33aa, >583... *
->Cluster 364
-0	33aa, >584... *
->Cluster 365
-0	33aa, >847... *
->Cluster 366
-0	33aa, >864... *
->Cluster 367
-0	33aa, >1103... *
->Cluster 368
-0	33aa, >1185... *
->Cluster 369
-0	32aa, >179... *
->Cluster 370
-0	32aa, >340... *
->Cluster 371
-0	32aa, >588... *
->Cluster 372
-0	32aa, >1189... *
->Cluster 373
-0	31aa, >233... *
->Cluster 374
-0	31aa, >424... *
->Cluster 375
-0	31aa, >884... *
->Cluster 376
-0	31aa, >922... *
->Cluster 377
-0	30aa, >130... *
->Cluster 378
-0	30aa, >162... *
->Cluster 379
-0	30aa, >409... *
->Cluster 380
-0	30aa, >492... *
-1	26aa, >734... at 88.46%
->Cluster 381
-0	30aa, >529... *
->Cluster 382
-0	30aa, >546... *
->Cluster 383
-0	30aa, >744... *
->Cluster 384
-0	30aa, >846... *
->Cluster 385
-0	30aa, >888... *
->Cluster 386
-0	30aa, >919... *
->Cluster 387
-0	30aa, >934... *
->Cluster 388
-0	30aa, >946... *
->Cluster 389
-0	30aa, >1092... *
->Cluster 390
-0	29aa, >40... *
->Cluster 391
-0	29aa, >104... *
->Cluster 392
-0	29aa, >124... *
->Cluster 393
-0	6aa, >182... at 83.33%
-1	29aa, >270... *
->Cluster 394
-0	29aa, >299... *
->Cluster 395
-0	29aa, >343... *
->Cluster 396
-0	29aa, >531... *
-1	29aa, >1114... at 75.86%
->Cluster 397
-0	29aa, >687... *
->Cluster 398
-0	29aa, >801... *
->Cluster 399
-0	29aa, >928... *
->Cluster 400
-0	29aa, >1024... *
->Cluster 401
-0	29aa, >1120... *
->Cluster 402
-0	28aa, >138... *
-1	15aa, >461... at 80.00%
->Cluster 403
-0	28aa, >280... *
->Cluster 404
-0	28aa, >815... *
->Cluster 405
-0	14aa, >710... at 92.86%
-1	11aa, >782... at 100.00%
-2	28aa, >842... *
-3	13aa, >966... at 92.31%
->Cluster 406
-0	28aa, >848... *
->Cluster 407
-0	28aa, >1043... *
->Cluster 408
-0	24aa, >282... at 91.67%
-1	21aa, >462... at 90.48%
-2	28aa, >1156... *
->Cluster 409
-0	11aa, >694... at 81.82%
-1	28aa, >1181... *
->Cluster 410
-0	27aa, >145... *
->Cluster 411
-0	27aa, >220... *
->Cluster 412
-0	27aa, >259... *
->Cluster 413
-0	27aa, >305... *
->Cluster 414
-0	27aa, >388... *
->Cluster 415
-0	27aa, >760... *
->Cluster 416
-0	27aa, >839... *
->Cluster 417
-0	27aa, >1073... *
->Cluster 418
-0	27aa, >1119... *
->Cluster 419
-0	27aa, >1126... *
->Cluster 420
-0	27aa, >1140... *
->Cluster 421
-0	26aa, >45... *
-1	26aa, >148... at 92.31%
-2	26aa, >386... at 88.46%
-3	26aa, >545... at 92.31%
-4	26aa, >802... at 80.77%
->Cluster 422
-0	26aa, >60... *
->Cluster 423
-0	15aa, >8... at 93.33%
-1	26aa, >230... *
-2	15aa, >439... at 93.33%
-3	26aa, >913... at 88.46%
-4	26aa, >1049... at 88.46%
->Cluster 424
-0	26aa, >255... *
->Cluster 425
-0	26aa, >261... *
->Cluster 426
-0	26aa, >353... *
->Cluster 427
-0	11aa, >592... at 81.82%
-1	26aa, >612... *
->Cluster 428
-0	26aa, >658... *
->Cluster 429
-0	26aa, >686... *
->Cluster 430
-0	26aa, >827... *
->Cluster 431
-0	26aa, >830... *
->Cluster 432
-0	26aa, >949... *
->Cluster 433
-0	26aa, >992... *
->Cluster 434
-0	26aa, >1014... *
->Cluster 435
-0	26aa, >1026... *
->Cluster 436
-0	26aa, >1148... *
->Cluster 437
-0	26aa, >1187... *
->Cluster 438
-0	25aa, >53... *
->Cluster 439
-0	25aa, >92... *
->Cluster 440
-0	25aa, >173... *
-1	25aa, >437... at 88.00%
-2	25aa, >726... at 88.00%
->Cluster 441
-0	25aa, >257... *
-1	24aa, >382... at 75.00%
->Cluster 442
-0	25aa, >284... *
->Cluster 443
-0	25aa, >293... *
->Cluster 444
-0	25aa, >317... *
->Cluster 445
-0	25aa, >358... *
->Cluster 446
-0	7aa, >6... at 85.71%
-1	25aa, >399... *
->Cluster 447
-0	25aa, >526... *
-1	25aa, >1098... at 92.00%
->Cluster 448
-0	25aa, >606... *
->Cluster 449
-0	25aa, >672... *
->Cluster 450
-0	25aa, >736... *
->Cluster 451
-0	25aa, >784... *
->Cluster 452
-0	25aa, >828... *
->Cluster 453
-0	25aa, >904... *
->Cluster 454
-0	25aa, >941... *
->Cluster 455
-0	25aa, >996... *
->Cluster 456
-0	25aa, >1107... *
->Cluster 457
-0	25aa, >1162... *
->Cluster 458
-0	16aa, >126... at 100.00%
-1	16aa, >596... at 93.75%
-2	25aa, >1171... *
->Cluster 459
-0	25aa, >1199... *
->Cluster 460
-0	24aa, >132... *
->Cluster 461
-0	24aa, >136... *
->Cluster 462
-0	24aa, >139... *
->Cluster 463
-0	24aa, >178... *
->Cluster 464
-0	24aa, >256... *
-1	24aa, >335... at 91.67%
->Cluster 465
-0	24aa, >302... *
-1	24aa, >432... at 83.33%
-2	16aa, >577... at 75.00%
->Cluster 466
-0	24aa, >429... *
->Cluster 467
-0	24aa, >455... *
->Cluster 468
-0	24aa, >528... *
->Cluster 469
-0	24aa, >543... *
->Cluster 470
-0	24aa, >548... *
->Cluster 471
-0	24aa, >704... *
->Cluster 472
-0	24aa, >811... *
->Cluster 473
-0	24aa, >885... *
->Cluster 474
-0	24aa, >897... *
->Cluster 475
-0	24aa, >898... *
->Cluster 476
-0	24aa, >931... *
->Cluster 477
-0	24aa, >1018... *
->Cluster 478
-0	23aa, >65... *
->Cluster 479
-0	23aa, >210... *
->Cluster 480
-0	23aa, >212... *
-1	23aa, >245... at 78.26%
-2	23aa, >708... at 95.65%
-3	23aa, >1075... at 91.30%
->Cluster 481
-0	23aa, >290... *
-1	23aa, >507... at 91.30%
-2	23aa, >1113... at 95.65%
->Cluster 482
-0	23aa, >406... *
-1	15aa, >861... at 73.33%
->Cluster 483
-0	23aa, >580... *
->Cluster 484
-0	23aa, >631... *
->Cluster 485
-0	23aa, >655... *
->Cluster 486
-0	23aa, >697... *
->Cluster 487
-0	23aa, >720... *
->Cluster 488
-0	23aa, >722... *
->Cluster 489
-0	23aa, >803... *
->Cluster 490
-0	23aa, >921... *
->Cluster 491
-0	23aa, >923... *
->Cluster 492
-0	23aa, >937... *
->Cluster 493
-0	23aa, >945... *
->Cluster 494
-0	23aa, >955... *
->Cluster 495
-0	23aa, >1009... *
->Cluster 496
-0	23aa, >1031... *
->Cluster 497
-0	23aa, >1047... *
->Cluster 498
-0	23aa, >1064... *
->Cluster 499
-0	22aa, >57... *
->Cluster 500
-0	22aa, >82... *
->Cluster 501
-0	22aa, >164... *
->Cluster 502
-0	22aa, >194... *
->Cluster 503
-0	22aa, >201... *
->Cluster 504
-0	22aa, >215... *
-1	19aa, >814... at 100.00%
->Cluster 505
-0	22aa, >283... *
->Cluster 506
-0	22aa, >303... *
->Cluster 507
-0	22aa, >304... *
->Cluster 508
-0	9aa, >275... at 77.78%
-1	22aa, >308... *
-2	9aa, >882... at 77.78%
-3	8aa, >883... at 75.00%
->Cluster 509
-0	22aa, >322... *
-1	22aa, >785... at 90.91%
-2	22aa, >971... at 90.91%
->Cluster 510
-0	22aa, >384... *
->Cluster 511
-0	22aa, >393... *
->Cluster 512
-0	22aa, >405... *
-1	21aa, >524... at 85.71%
->Cluster 513
-0	22aa, >511... *
->Cluster 514
-0	22aa, >540... *
->Cluster 515
-0	22aa, >560... *
->Cluster 516
-0	21aa, >242... at 90.48%
-1	22aa, >581... *
->Cluster 517
-0	22aa, >657... *
->Cluster 518
-0	19aa, >622... at 94.74%
-1	22aa, >725... *
->Cluster 519
-0	22aa, >764... *
->Cluster 520
-0	22aa, >776... *
->Cluster 521
-0	22aa, >778... *
->Cluster 522
-0	22aa, >786... *
->Cluster 523
-0	22aa, >788... *
->Cluster 524
-0	22aa, >962... *
->Cluster 525
-0	22aa, >989... *
->Cluster 526
-0	22aa, >1003... *
->Cluster 527
-0	22aa, >1060... *
->Cluster 528
-0	22aa, >1111... *
->Cluster 529
-0	22aa, >1127... *
->Cluster 530
-0	22aa, >1139... *
->Cluster 531
-0	21aa, >5... *
->Cluster 532
-0	21aa, >7... *
->Cluster 533
-0	21aa, >27... *
->Cluster 534
-0	21aa, >35... *
->Cluster 535
-0	21aa, >62... *
-1	21aa, >636... at 90.48%
-2	21aa, >856... at 90.48%
-3	17aa, >1163... at 88.24%
->Cluster 536
-0	21aa, >131... *
->Cluster 537
-0	21aa, >281... *
->Cluster 538
-0	21aa, >380... *
->Cluster 539
-0	21aa, >415... *
->Cluster 540
-0	21aa, >522... *
->Cluster 541
-0	21aa, >553... *
->Cluster 542
-0	21aa, >589... *
->Cluster 543
-0	21aa, >600... *
->Cluster 544
-0	21aa, >706... *
->Cluster 545
-0	21aa, >743... *
->Cluster 546
-0	21aa, >769... *
->Cluster 547
-0	21aa, >854... *
->Cluster 548
-0	21aa, >875... *
->Cluster 549
-0	21aa, >1058... *
->Cluster 550
-0	21aa, >1100... *
->Cluster 551
-0	21aa, >1165... *
->Cluster 552
-0	21aa, >1169... *
->Cluster 553
-0	20aa, >21... *
->Cluster 554
-0	20aa, >25... *
->Cluster 555
-0	20aa, >47... *
->Cluster 556
-0	20aa, >105... *
->Cluster 557
-0	20aa, >118... *
->Cluster 558
-0	20aa, >122... *
->Cluster 559
-0	20aa, >133... *
-1	20aa, >356... at 90.00%
-2	20aa, >1000... at 90.00%
->Cluster 560
-0	20aa, >158... *
->Cluster 561
-0	20aa, >176... *
->Cluster 562
-0	20aa, >177... *
->Cluster 563
-0	20aa, >180... *
->Cluster 564
-0	20aa, >188... *
->Cluster 565
-0	20aa, >209... *
->Cluster 566
-0	20aa, >229... *
->Cluster 567
-0	20aa, >248... *
->Cluster 568
-0	20aa, >264... *
->Cluster 569
-0	20aa, >360... *
->Cluster 570
-0	20aa, >389... *
->Cluster 571
-0	20aa, >390... *
->Cluster 572
-0	20aa, >404... *
->Cluster 573
-0	20aa, >446... *
->Cluster 574
-0	20aa, >470... *
->Cluster 575
-0	20aa, >502... *
->Cluster 576
-0	20aa, >556... *
->Cluster 577
-0	20aa, >563... *
->Cluster 578
-0	20aa, >568... *
->Cluster 579
-0	20aa, >576... *
-1	11aa, >799... at 72.73%
->Cluster 580
-0	20aa, >616... *
->Cluster 581
-0	20aa, >670... *
->Cluster 582
-0	20aa, >740... *
->Cluster 583
-0	20aa, >765... *
->Cluster 584
-0	20aa, >825... *
->Cluster 585
-0	20aa, >843... *
->Cluster 586
-0	20aa, >902... *
->Cluster 587
-0	20aa, >903... *
->Cluster 588
-0	20aa, >911... *
->Cluster 589
-0	20aa, >916... *
->Cluster 590
-0	20aa, >947... *
->Cluster 591
-0	16aa, >414... at 87.50%
-1	20aa, >957... *
-2	19aa, >999... at 94.74%
->Cluster 592
-0	20aa, >961... *
->Cluster 593
-0	20aa, >983... *
-1	10aa, >1099... at 100.00%
->Cluster 594
-0	20aa, >991... *
->Cluster 595
-0	20aa, >1109... *
->Cluster 596
-0	20aa, >1149... *
->Cluster 597
-0	20aa, >1157... *
->Cluster 598
-0	20aa, >1194... *
->Cluster 599
-0	19aa, >28... *
->Cluster 600
-0	19aa, >61... *
-1	18aa, >449... at 83.33%
->Cluster 601
-0	19aa, >77... *
->Cluster 602
-0	19aa, >197... *
->Cluster 603
-0	19aa, >217... *
->Cluster 604
-0	19aa, >252... *
->Cluster 605
-0	19aa, >400... *
-1	19aa, >873... at 84.21%
->Cluster 606
-0	19aa, >408... *
->Cluster 607
-0	19aa, >431... *
->Cluster 608
-0	19aa, >469... *
->Cluster 609
-0	19aa, >475... *
-1	12aa, >981... at 83.33%
->Cluster 610
-0	19aa, >477... *
->Cluster 611
-0	19aa, >565... *
->Cluster 612
-0	19aa, >585... *
->Cluster 613
-0	19aa, >650... *
->Cluster 614
-0	19aa, >787... *
->Cluster 615
-0	19aa, >853... *
->Cluster 616
-0	19aa, >886... *
->Cluster 617
-0	19aa, >967... *
->Cluster 618
-0	19aa, >1045... *
->Cluster 619
-0	19aa, >1151... *
->Cluster 620
-0	19aa, >1153... *
->Cluster 621
-0	19aa, >1170... *
->Cluster 622
-0	18aa, >9... *
->Cluster 623
-0	18aa, >34... *
->Cluster 624
-0	18aa, >81... *
->Cluster 625
-0	18aa, >87... *
-1	9aa, >732... at 77.78%
->Cluster 626
-0	18aa, >127... *
->Cluster 627
-0	18aa, >166... *
->Cluster 628
-0	18aa, >191... *
->Cluster 629
-0	18aa, >234... *
->Cluster 630
-0	18aa, >253... *
->Cluster 631
-0	17aa, >91... at 100.00%
-1	18aa, >330... *
-2	10aa, >407... at 80.00%
->Cluster 632
-0	18aa, >342... *
->Cluster 633
-0	18aa, >374... *
-1	7aa, >1176... at 71.43%
-2	9aa, >1193... at 77.78%
->Cluster 634
-0	5aa, >195... at 100.00%
-1	9aa, >333... at 88.89%
-2	18aa, >397... *
->Cluster 635
-0	18aa, >402... *
->Cluster 636
-0	18aa, >436... *
->Cluster 637
-0	18aa, >448... *
->Cluster 638
-0	18aa, >465... *
-1	18aa, >625... at 72.22%
-2	18aa, >806... at 77.78%
-3	17aa, >1152... at 82.35%
->Cluster 639
-0	18aa, >579... *
->Cluster 640
-0	11aa, >172... at 72.73%
-1	18aa, >752... *
-2	6aa, >817... at 83.33%
->Cluster 641
-0	15aa, >712... at 93.33%
-1	18aa, >775... *
->Cluster 642
-0	18aa, >794... *
->Cluster 643
-0	18aa, >905... *
->Cluster 644
-0	18aa, >1095... *
->Cluster 645
-0	17aa, >2... *
->Cluster 646
-0	17aa, >11... *
->Cluster 647
-0	17aa, >18... *
->Cluster 648
-0	17aa, >75... *
-1	17aa, >337... at 76.47%
-2	17aa, >1040... at 88.24%
->Cluster 649
-0	17aa, >80... *
->Cluster 650
-0	17aa, >141... *
->Cluster 651
-0	17aa, >142... *
->Cluster 652
-0	17aa, >202... *
->Cluster 653
-0	17aa, >205... *
->Cluster 654
-0	17aa, >211... *
->Cluster 655
-0	17aa, >286... *
->Cluster 656
-0	17aa, >321... *
->Cluster 657
-0	17aa, >453... *
->Cluster 658
-0	7aa, >269... at 71.43%
-1	17aa, >532... *
->Cluster 659
-0	17aa, >587... *
->Cluster 660
-0	17aa, >641... *
->Cluster 661
-0	17aa, >661... *
->Cluster 662
-0	13aa, >137... at 84.62%
-1	17aa, >668... *
->Cluster 663
-0	17aa, >729... *
->Cluster 664
-0	17aa, >738... *
->Cluster 665
-0	17aa, >745... *
->Cluster 666
-0	17aa, >812... *
->Cluster 667
-0	17aa, >858... *
->Cluster 668
-0	17aa, >878... *
->Cluster 669
-0	17aa, >998... *
->Cluster 670
-0	17aa, >1020... *
->Cluster 671
-0	17aa, >1081... *
->Cluster 672
-0	17aa, >1097... *
->Cluster 673
-0	16aa, >3... *
-1	16aa, >890... at 75.00%
->Cluster 674
-0	16aa, >84... *
->Cluster 675
-0	16aa, >94... *
->Cluster 676
-0	16aa, >108... *
->Cluster 677
-0	16aa, >109... *
->Cluster 678
-0	16aa, >170... *
->Cluster 679
-0	16aa, >184... *
->Cluster 680
-0	16aa, >226... *
->Cluster 681
-0	16aa, >265... *
->Cluster 682
-0	16aa, >273... *
->Cluster 683
-0	16aa, >287... *
->Cluster 684
-0	16aa, >292... *
-1	14aa, >1137... at 92.86%
->Cluster 685
-0	16aa, >341... *
->Cluster 686
-0	16aa, >355... *
->Cluster 687
-0	16aa, >450... *
->Cluster 688
-0	16aa, >451... *
-1	5aa, >741... at 80.00%
->Cluster 689
-0	16aa, >466... *
->Cluster 690
-0	16aa, >486... *
->Cluster 691
-0	16aa, >489... *
->Cluster 692
-0	16aa, >493... *
->Cluster 693
-0	16aa, >510... *
->Cluster 694
-0	16aa, >542... *
->Cluster 695
-0	16aa, >685... *
->Cluster 696
-0	16aa, >791... *
->Cluster 697
-0	16aa, >835... *
->Cluster 698
-0	16aa, >859... *
->Cluster 699
-0	16aa, >876... *
->Cluster 700
-0	16aa, >927... *
->Cluster 701
-0	16aa, >963... *
->Cluster 702
-0	16aa, >1010... *
->Cluster 703
-0	16aa, >1033... *
-1	16aa, >1133... at 81.25%
->Cluster 704
-0	16aa, >1051... *
->Cluster 705
-0	16aa, >1066... *
->Cluster 706
-0	16aa, >1178... *
->Cluster 707
-0	16aa, >1179... *
->Cluster 708
-0	15aa, >26... *
->Cluster 709
-0	15aa, >96... *
-1	14aa, >276... at 92.86%
->Cluster 710
-0	15aa, >106... *
->Cluster 711
-0	15aa, >115... *
->Cluster 712
-0	15aa, >129... *
->Cluster 713
-0	15aa, >192... *
->Cluster 714
-0	15aa, >214... *
->Cluster 715
-0	15aa, >239... *
->Cluster 716
-0	15aa, >249... *
->Cluster 717
-0	15aa, >254... *
->Cluster 718
-0	15aa, >277... *
->Cluster 719
-0	15aa, >289... *
->Cluster 720
-0	15aa, >372... *
->Cluster 721
-0	15aa, >433... *
->Cluster 722
-0	15aa, >445... *
->Cluster 723
-0	15aa, >467... *
->Cluster 724
-0	15aa, >496... *
->Cluster 725
-0	15aa, >508... *
->Cluster 726
-0	15aa, >557... *
->Cluster 727
-0	15aa, >578... *
->Cluster 728
-0	15aa, >597... *
->Cluster 729
-0	15aa, >680... *
->Cluster 730
-0	15aa, >718... *
->Cluster 731
-0	15aa, >756... *
->Cluster 732
-0	15aa, >758... *
->Cluster 733
-0	15aa, >783... *
->Cluster 734
 0	15aa, >809... *
->Cluster 735
-0	15aa, >918... *
->Cluster 736
-0	15aa, >935... *
->Cluster 737
-0	15aa, >944... *
->Cluster 738
-0	15aa, >952... *
->Cluster 739
-0	15aa, >984... *
->Cluster 740
-0	15aa, >1001... *
->Cluster 741
-0	15aa, >1002... *
->Cluster 742
-0	15aa, >1021... *
->Cluster 743
-0	15aa, >1076... *
->Cluster 744
-0	15aa, >1102... *
->Cluster 745
-0	15aa, >1168... *
->Cluster 746
-0	15aa, >1196... *
->Cluster 747
-0	14aa, >33... *
->Cluster 748
-0	14aa, >36... *
->Cluster 749
-0	14aa, >90... *
->Cluster 750
-0	14aa, >93... *
-1	14aa, >929... at 85.71%
->Cluster 751
-0	14aa, >154... *
->Cluster 752
-0	14aa, >169... *
->Cluster 753
-0	14aa, >190... *
->Cluster 754
-0	14aa, >196... *
->Cluster 755
-0	14aa, >200... *
->Cluster 756
-0	14aa, >203... *
->Cluster 757
-0	14aa, >332... *
->Cluster 758
-0	14aa, >385... *
->Cluster 759
-0	14aa, >523... *
->Cluster 760
-0	14aa, >558... *
->Cluster 761
-0	14aa, >608... *
->Cluster 762
-0	14aa, >609... *
->Cluster 763
-0	14aa, >682... *
->Cluster 764
-0	14aa, >793... *
->Cluster 765
-0	14aa, >796... *
->Cluster 766
-0	14aa, >845... *
->Cluster 767
-0	14aa, >891... *
->Cluster 768
-0	8aa, >534... at 75.00%
-1	14aa, >912... *
->Cluster 769
-0	14aa, >1023... *
->Cluster 770
-0	14aa, >1115... *
->Cluster 771
-0	14aa, >1116... *
->Cluster 772
-0	13aa, >16... *
-1	12aa, >266... at 75.00%
-2	13aa, >339... at 92.31%
->Cluster 773
-0	13aa, >38... *
->Cluster 774
-0	13aa, >42... *
->Cluster 775
-0	13aa, >89... *
->Cluster 776
-0	13aa, >120... *
->Cluster 777
-0	13aa, >147... *
->Cluster 778
-0	13aa, >187... *
->Cluster 779
-0	13aa, >216... *
->Cluster 780
-0	13aa, >235... *
-1	13aa, >908... at 76.92%
->Cluster 781
-0	13aa, >268... *
->Cluster 782
-0	13aa, >274... *
-1	12aa, >698... at 75.00%
->Cluster 783
-0	13aa, >291... *
->Cluster 784
-0	13aa, >319... *
->Cluster 785
-0	13aa, >323... *
-1	13aa, >798... at 76.92%
-2	13aa, >1110... at 76.92%
->Cluster 786
-0	13aa, >357... *
-1	12aa, >463... at 83.33%
->Cluster 787
-0	13aa, >363... *
->Cluster 788
-0	13aa, >373... *
->Cluster 789
-0	13aa, >379... *
-1	12aa, >982... at 83.33%
-2	12aa, >1182... at 100.00%
->Cluster 790
-0	13aa, >403... *
->Cluster 791
-0	13aa, >428... *
->Cluster 792
-0	13aa, >444... *
->Cluster 793
-0	13aa, >460... *
->Cluster 794
-0	13aa, >471... *
->Cluster 795
-0	13aa, >490... *
->Cluster 796
-0	13aa, >530... *
->Cluster 797
-0	13aa, >582... *
->Cluster 798
-0	13aa, >640... *
->Cluster 799
-0	13aa, >643... *
->Cluster 800
-0	9aa, >74... at 77.78%
-1	13aa, >644... *
->Cluster 801
-0	13aa, >659... *
->Cluster 802
-0	13aa, >665... *
->Cluster 803
-0	13aa, >673... *
->Cluster 804
-0	13aa, >705... *
->Cluster 805
-0	13aa, >727... *
->Cluster 806
-0	13aa, >747... *
->Cluster 807
-0	13aa, >755... *
->Cluster 808
-0	13aa, >841... *
->Cluster 809
-0	13aa, >862... *
->Cluster 810
-0	13aa, >863... *
->Cluster 811
-0	13aa, >870... *
->Cluster 812
-0	13aa, >965... *
->Cluster 813
-0	13aa, >968... *
->Cluster 814
-0	13aa, >988... *
->Cluster 815
-0	13aa, >1028... *
->Cluster 816
-0	13aa, >1077... *
->Cluster 817
-0	13aa, >1082... *
->Cluster 818
-0	13aa, >1141... *
->Cluster 819
-0	13aa, >1146... *
->Cluster 820
-0	13aa, >1173... *
->Cluster 821
-0	12aa, >15... *
->Cluster 822
-0	12aa, >23... *
-1	12aa, >795... at 75.00%
-2	12aa, >1030... at 83.33%
-3	12aa, >1096... at 83.33%
->Cluster 823
-0	12aa, >44... *
->Cluster 824
-0	12aa, >64... *
-1	9aa, >651... at 100.00%
->Cluster 825
-0	12aa, >102... *
->Cluster 826
-0	12aa, >103... *
->Cluster 827
-0	12aa, >134... *
->Cluster 828
-0	12aa, >198... *
->Cluster 829
-0	12aa, >207... *
->Cluster 830
-0	12aa, >247... *
->Cluster 831
-0	12aa, >272... *
->Cluster 832
-0	12aa, >295... *
->Cluster 833
-0	12aa, >325... *
->Cluster 834
-0	12aa, >375... *
->Cluster 835
-0	12aa, >398... *
->Cluster 836
-0	12aa, >427... *
->Cluster 837
-0	12aa, >443... *
->Cluster 838
-0	12aa, >464... *
->Cluster 839
-0	12aa, >482... *
->Cluster 840
-0	12aa, >485... *
->Cluster 841
-0	12aa, >487... *
->Cluster 842
-0	12aa, >498... *
->Cluster 843
-0	12aa, >517... *
->Cluster 844
-0	12aa, >590... *
->Cluster 845
-0	12aa, >593... *
->Cluster 846
-0	12aa, >633... *
->Cluster 847
-0	12aa, >635... *
->Cluster 848
-0	12aa, >653... *
->Cluster 849
-0	12aa, >703... *
->Cluster 850
-0	12aa, >719... *
->Cluster 851
-0	12aa, >779... *
->Cluster 852
-0	12aa, >789... *
->Cluster 853
-0	12aa, >790... *
->Cluster 854
-0	12aa, >792... *
-1	12aa, >1158... at 83.33%
->Cluster 855
-0	12aa, >813... *
->Cluster 856
-0	12aa, >822... *
->Cluster 857
-0	12aa, >838... *
->Cluster 858
-0	12aa, >849... *
->Cluster 859
-0	12aa, >857... *
->Cluster 860
-0	12aa, >867... *
->Cluster 861
-0	12aa, >942... *
->Cluster 862
-0	10aa, >430... at 80.00%
-1	8aa, >452... at 87.50%
-2	12aa, >970... *
->Cluster 863
-0	12aa, >978... *
->Cluster 864
-0	10aa, >611... at 90.00%
-1	12aa, >990... *
->Cluster 865
-0	12aa, >1007... *
->Cluster 866
-0	12aa, >1008... *
->Cluster 867
-0	12aa, >1019... *
->Cluster 868
-0	7aa, >820... at 100.00%
-1	12aa, >1078... *
->Cluster 869
-0	12aa, >1105... *
->Cluster 870
-0	12aa, >1132... *
->Cluster 871
-0	11aa, >144... *
->Cluster 872
-0	11aa, >160... *
->Cluster 873
-0	11aa, >161... *
->Cluster 874
-0	11aa, >168... *
->Cluster 875
-0	11aa, >185... *
->Cluster 876
-0	11aa, >193... *
->Cluster 877
-0	11aa, >336... *
->Cluster 878
-0	11aa, >347... *
->Cluster 879
-0	11aa, >350... *
->Cluster 880
-0	11aa, >383... *
->Cluster 881
-0	11aa, >392... *
->Cluster 882
-0	11aa, >418... *
->Cluster 883
-0	11aa, >458... *
->Cluster 884
-0	11aa, >503... *
->Cluster 885
-0	11aa, >562... *
->Cluster 886
-0	11aa, >598... *
->Cluster 887
-0	11aa, >630... *
->Cluster 888
-0	11aa, >695... *
->Cluster 889
-0	11aa, >713... *
->Cluster 890
-0	11aa, >767... *
->Cluster 891
-0	11aa, >772... *
->Cluster 892
-0	11aa, >816... *
->Cluster 893
-0	11aa, >818... *
->Cluster 894
-0	11aa, >855... *
->Cluster 895
-0	11aa, >880... *
->Cluster 896
-0	11aa, >1005... *
->Cluster 897
-0	11aa, >1035... *
->Cluster 898
-0	11aa, >1057... *
->Cluster 899
-0	11aa, >1083... *
->Cluster 900
-0	11aa, >1147... *
->Cluster 901
-0	10aa, >14... *
->Cluster 902
-0	10aa, >76... *
->Cluster 903
-0	10aa, >97... *
->Cluster 904
-0	10aa, >100... *
->Cluster 905
-0	10aa, >119... *
-1	10aa, >654... at 80.00%
->Cluster 906
-0	10aa, >181... *
->Cluster 907
-0	10aa, >237... *
->Cluster 908
-0	10aa, >300... *
->Cluster 909
+>Cluster 48
+0	15aa, >843... *
+>Cluster 49
+0	15aa, >858... *
+>Cluster 50
+0	15aa, >939... *
+>Cluster 51
+0	15aa, >1101... *
+>Cluster 52
+0	14aa, >24... *
+1	8aa, >438... at 87.50%
+2	10aa, >483... at 90.00%
+>Cluster 53
+0	14aa, >143... *
+>Cluster 54
+0	14aa, >230... *
+>Cluster 55
+0	14aa, >268... *
+>Cluster 56
+0	14aa, >344... *
+>Cluster 57
+0	14aa, >355... *
+>Cluster 58
+0	14aa, >649... *
+>Cluster 59
+0	14aa, >651... *
+1	14aa, >993... at 78.57%
+2	14aa, >1023... at 85.71%
+3	14aa, >1055... at 78.57%
+>Cluster 60
+0	14aa, >663... *
+1	10aa, >825... at 90.00%
+>Cluster 61
+0	14aa, >792... *
+>Cluster 62
+0	14aa, >797... *
+>Cluster 63
+0	14aa, >826... *
+>Cluster 64
+0	14aa, >890... *
+>Cluster 65
+0	14aa, >893... *
+>Cluster 66
+0	14aa, >1047... *
+>Cluster 67
+0	14aa, >1119... *
+>Cluster 68
+0	13aa, >275... *
+>Cluster 69
+0	13aa, >452... *
+>Cluster 70
+0	13aa, >672... *
+>Cluster 71
+0	13aa, >711... *
+>Cluster 72
+0	12aa, >0... *
+>Cluster 73
+0	12aa, >119... *
+>Cluster 74
+0	12aa, >243... *
+1	4aa, >512... at 100.00%
+>Cluster 75
+0	12aa, >316... *
+>Cluster 76
+0	12aa, >431... *
+>Cluster 77
+0	12aa, >467... *
+>Cluster 78
+0	12aa, >549... *
+>Cluster 79
+0	5aa, >525... at 80.00%
+1	12aa, >562... *
+>Cluster 80
+0	12aa, >591... *
+>Cluster 81
+0	12aa, >654... *
+>Cluster 82
+0	12aa, >785... *
+>Cluster 83
+0	12aa, >855... *
+>Cluster 84
+0	12aa, >869... *
+>Cluster 85
+0	12aa, >876... *
+>Cluster 86
+0	12aa, >934... *
+>Cluster 87
+0	12aa, >1065... *
+>Cluster 88
+0	11aa, >48... *
+>Cluster 89
+0	11aa, >64... *
+>Cluster 90
+0	11aa, >82... *
+1	6aa, >166... at 100.00%
+2	5aa, >523... at 100.00%
+>Cluster 91
+0	11aa, >83... *
+1	5aa, >453... at 100.00%
+2	4aa, >527... at 100.00%
+3	6aa, >1099... at 100.00%
+>Cluster 92
+0	11aa, >154... *
+>Cluster 93
+0	11aa, >156... *
+>Cluster 94
+0	11aa, >157... *
+>Cluster 95
+0	11aa, >174... *
+1	9aa, >282... at 100.00%
+>Cluster 96
+0	11aa, >340... *
+>Cluster 97
+0	11aa, >482... *
+>Cluster 98
+0	11aa, >522... *
+>Cluster 99
+0	11aa, >601... *
+>Cluster 100
+0	11aa, >660... *
+>Cluster 101
+0	11aa, >706... *
+>Cluster 102
+0	11aa, >771... *
+>Cluster 103
+0	11aa, >819... *
+>Cluster 104
+0	5aa, >296... at 100.00%
+1	7aa, >552... at 100.00%
+2	11aa, >862... *
+>Cluster 105
+0	4aa, >719... at 100.00%
+1	11aa, >928... *
+>Cluster 106
+0	11aa, >955... *
+>Cluster 107
+0	8aa, >374... at 87.50%
+1	11aa, >959... *
+>Cluster 108
+0	11aa, >985... *
+>Cluster 109
+0	11aa, >1059... *
+>Cluster 110
+0	11aa, >1103... *
+>Cluster 111
+0	10aa, >4... *
+>Cluster 112
+0	10aa, >63... *
+>Cluster 113
+0	10aa, >73... *
+>Cluster 114
+0	10aa, >122... *
+>Cluster 115
+0	10aa, >126... *
+>Cluster 116
+0	10aa, >136... *
+>Cluster 117
+0	10aa, >149... *
+>Cluster 118
+0	10aa, >161... *
+>Cluster 119
+0	10aa, >163... *
+>Cluster 120
+0	10aa, >180... *
+>Cluster 121
+0	10aa, >196... *
+>Cluster 122
+0	10aa, >209... *
+>Cluster 123
+0	10aa, >224... *
+>Cluster 124
+0	10aa, >246... *
+1	5aa, >283... at 100.00%
+2	4aa, >822... at 100.00%
+3	6aa, >1121... at 83.33%
+>Cluster 125
+0	10aa, >253... *
+>Cluster 126
+0	10aa, >258... *
+>Cluster 127
 0	10aa, >313... *
->Cluster 910
-0	10aa, >426... *
->Cluster 911
-0	10aa, >514... *
->Cluster 912
-0	10aa, >544... *
->Cluster 913
-0	10aa, >559... *
->Cluster 914
-0	10aa, >632... *
->Cluster 915
-0	10aa, >667... *
->Cluster 916
-0	10aa, >693... *
->Cluster 917
-0	10aa, >754... *
->Cluster 918
-0	10aa, >771... *
-1	10aa, >1067... at 80.00%
-2	10aa, >1161... at 80.00%
->Cluster 919
-0	10aa, >777... *
->Cluster 920
-0	10aa, >781... *
->Cluster 921
-0	10aa, >877... *
->Cluster 922
-0	10aa, >933... *
->Cluster 923
-0	10aa, >1011... *
->Cluster 924
-0	10aa, >1012... *
->Cluster 925
-0	10aa, >1037... *
->Cluster 926
-0	10aa, >1050... *
->Cluster 927
-0	10aa, >1061... *
->Cluster 928
-0	10aa, >1063... *
->Cluster 929
-0	10aa, >1080... *
->Cluster 930
-0	10aa, >1108... *
->Cluster 931
-0	10aa, >1145... *
->Cluster 932
-0	10aa, >1198... *
->Cluster 933
-0	9aa, >29... *
->Cluster 934
-0	9aa, >54... *
->Cluster 935
-0	9aa, >63... *
->Cluster 936
-0	9aa, >99... *
->Cluster 937
-0	9aa, >163... *
-1	9aa, >362... at 77.78%
->Cluster 938
-0	9aa, >222... *
->Cluster 939
-0	9aa, >236... *
->Cluster 940
-0	9aa, >327... *
->Cluster 941
-0	9aa, >334... *
->Cluster 942
-0	9aa, >348... *
->Cluster 943
-0	9aa, >417... *
->Cluster 944
-0	9aa, >438... *
->Cluster 945
-0	9aa, >456... *
->Cluster 946
-0	9aa, >473... *
->Cluster 947
-0	9aa, >509... *
->Cluster 948
-0	9aa, >539... *
->Cluster 949
-0	9aa, >595... *
->Cluster 950
-0	9aa, >614... *
->Cluster 951
-0	9aa, >619... *
->Cluster 952
-0	9aa, >626... *
-1	9aa, >1143... at 77.78%
->Cluster 953
-0	9aa, >629... *
->Cluster 954
-0	9aa, >674... *
->Cluster 955
-0	9aa, >874... *
->Cluster 956
-0	9aa, >939... *
->Cluster 957
-0	9aa, >1059... *
->Cluster 958
-0	9aa, >1074... *
->Cluster 959
-0	9aa, >1104... *
->Cluster 960
-0	9aa, >1121... *
->Cluster 961
-0	8aa, >48... *
->Cluster 962
-0	8aa, >67... *
-1	6aa, >101... at 83.33%
-2	8aa, >1084... at 75.00%
->Cluster 963
-0	8aa, >88... *
->Cluster 964
-0	8aa, >114... *
->Cluster 965
-0	8aa, >146... *
->Cluster 966
-0	8aa, >251... *
->Cluster 967
-0	8aa, >365... *
->Cluster 968
-0	8aa, >472... *
->Cluster 969
+>Cluster 128
+0	10aa, >330... *
+>Cluster 129
+0	10aa, >335... *
+1	5aa, >1071... at 100.00%
+>Cluster 130
+0	10aa, >347... *
+>Cluster 131
+0	10aa, >371... *
+>Cluster 132
+0	10aa, >513... *
+>Cluster 133
+0	10aa, >547... *
+1	5aa, >1069... at 80.00%
+>Cluster 134
+0	10aa, >590... *
+>Cluster 135
+0	10aa, >610... *
+>Cluster 136
+0	10aa, >619... *
+>Cluster 137
+0	10aa, >680... *
+>Cluster 138
+0	10aa, >737... *
+>Cluster 139
+0	10aa, >746... *
+>Cluster 140
+0	10aa, >753... *
+>Cluster 141
+0	10aa, >772... *
+>Cluster 142
+0	10aa, >774... *
+>Cluster 143
+0	10aa, >817... *
+>Cluster 144
+0	10aa, >847... *
+>Cluster 145
+0	10aa, >854... *
+>Cluster 146
+0	10aa, >873... *
+>Cluster 147
+0	10aa, >888... *
+>Cluster 148
+0	7aa, >640... at 100.00%
+1	10aa, >906... *
+>Cluster 149
+0	10aa, >924... *
+>Cluster 150
+0	10aa, >927... *
+>Cluster 151
+0	10aa, >967... *
+>Cluster 152
+0	10aa, >1028... *
+>Cluster 153
+0	10aa, >1046... *
+>Cluster 154
+0	10aa, >1073... *
+>Cluster 155
+0	10aa, >1085... *
+>Cluster 156
+0	9aa, >26... *
+>Cluster 157
+0	9aa, >79... *
+>Cluster 158
+0	9aa, >112... *
+>Cluster 159
+0	9aa, >147... *
+>Cluster 160
+0	9aa, >151... *
+>Cluster 161
+0	9aa, >186... *
+>Cluster 162
+0	9aa, >250... *
+>Cluster 163
+0	9aa, >260... *
+>Cluster 164
+0	9aa, >265... *
+>Cluster 165
+0	9aa, >273... *
+>Cluster 166
+0	9aa, >360... *
+>Cluster 167
+0	9aa, >406... *
+>Cluster 168
+0	9aa, >424... *
+>Cluster 169
+0	9aa, >428... *
+>Cluster 170
+0	9aa, >448... *
+>Cluster 171
+0	9aa, >507... *
+>Cluster 172
+0	5aa, >457... at 100.00%
+1	9aa, >637... *
+2	6aa, >1009... at 100.00%
+>Cluster 173
+0	9aa, >662... *
+>Cluster 174
+0	9aa, >676... *
+>Cluster 175
+0	9aa, >681... *
+>Cluster 176
+0	9aa, >685... *
+>Cluster 177
+0	9aa, >721... *
+>Cluster 178
+0	9aa, >748... *
+>Cluster 179
+0	9aa, >777... *
+>Cluster 180
+0	8aa, >242... at 100.00%
+1	9aa, >782... *
+>Cluster 181
+0	9aa, >810... *
+>Cluster 182
+0	9aa, >840... *
+>Cluster 183
+0	4aa, >790... at 100.00%
+1	9aa, >849... *
+>Cluster 184
+0	9aa, >908... *
+>Cluster 185
+0	4aa, >231... at 100.00%
+1	5aa, >510... at 100.00%
+2	5aa, >539... at 100.00%
+3	6aa, >812... at 100.00%
+4	9aa, >1008... *
+>Cluster 186
+0	9aa, >1026... *
+>Cluster 187
+0	9aa, >1032... *
+>Cluster 188
+0	9aa, >1048... *
+>Cluster 189
+0	8aa, >806... at 100.00%
+1	9aa, >1063... *
+>Cluster 190
+0	9aa, >1083... *
+>Cluster 191
+0	9aa, >1120... *
+>Cluster 192
+0	8aa, >10... *
+>Cluster 193
+0	8aa, >23... *
+>Cluster 194
+0	8aa, >25... *
+>Cluster 195
+0	8aa, >60... *
+>Cluster 196
+0	8aa, >92... *
+>Cluster 197
+0	8aa, >100... *
+>Cluster 198
+0	8aa, >153... *
+>Cluster 199
+0	8aa, >170... *
+>Cluster 200
+0	8aa, >172... *
+>Cluster 201
+0	8aa, >204... *
+>Cluster 202
+0	8aa, >216... *
+>Cluster 203
+0	8aa, >240... *
+>Cluster 204
+0	8aa, >247... *
+>Cluster 205
+0	8aa, >252... *
+1	6aa, >334... at 100.00%
+>Cluster 206
+0	8aa, >278... *
+>Cluster 207
+0	8aa, >295... *
+>Cluster 208
+0	8aa, >305... *
+1	7aa, >558... at 100.00%
+>Cluster 209
+0	8aa, >319... *
+>Cluster 210
+0	8aa, >368... *
+>Cluster 211
+0	8aa, >378... *
+>Cluster 212
+0	8aa, >382... *
+>Cluster 213
+0	8aa, >390... *
+>Cluster 214
+0	8aa, >404... *
+>Cluster 215
+0	8aa, >405... *
+>Cluster 216
+0	8aa, >430... *
+>Cluster 217
+0	8aa, >437... *
+>Cluster 218
+0	8aa, >485... *
+>Cluster 219
+0	8aa, >487... *
+>Cluster 220
+0	8aa, >489... *
+>Cluster 221
+0	8aa, >492... *
+>Cluster 222
+0	8aa, >514... *
+>Cluster 223
+0	5aa, >133... at 100.00%
+1	7aa, >164... at 100.00%
+2	8aa, >516... *
+>Cluster 224
 0	8aa, >551... *
->Cluster 970
-0	8aa, >594... *
->Cluster 971
-0	8aa, >702... *
->Cluster 972
-0	8aa, >715... *
->Cluster 973
-0	8aa, >724... *
->Cluster 974
-0	8aa, >735... *
->Cluster 975
-0	8aa, >797... *
->Cluster 976
-0	8aa, >819... *
->Cluster 977
-0	8aa, >954... *
->Cluster 978
-0	8aa, >994... *
->Cluster 979
-0	8aa, >1090... *
->Cluster 980
-0	7aa, >152... *
->Cluster 981
-0	7aa, >351... *
->Cluster 982
+>Cluster 225
+0	8aa, >563... *
+>Cluster 226
+0	8aa, >569... *
+>Cluster 227
+0	8aa, >571... *
+>Cluster 228
+0	8aa, >583... *
+>Cluster 229
+0	8aa, >600... *
+>Cluster 230
+0	8aa, >625... *
+>Cluster 231
+0	8aa, >635... *
+>Cluster 232
+0	8aa, >657... *
+>Cluster 233
+0	8aa, >775... *
+>Cluster 234
+0	8aa, >789... *
+>Cluster 235
+0	8aa, >816... *
+>Cluster 236
+0	8aa, >834... *
+>Cluster 237
+0	8aa, >838... *
+>Cluster 238
+0	8aa, >853... *
+>Cluster 239
+0	8aa, >872... *
+>Cluster 240
+0	8aa, >895... *
+>Cluster 241
+0	8aa, >956... *
+>Cluster 242
+0	8aa, >961... *
+>Cluster 243
+0	6aa, >52... at 83.33%
+1	8aa, >962... *
+>Cluster 244
+0	8aa, >976... *
+>Cluster 245
+0	8aa, >1033... *
+>Cluster 246
+0	8aa, >1049... *
+>Cluster 247
+0	8aa, >1051... *
+>Cluster 248
+0	8aa, >1061... *
+>Cluster 249
+0	7aa, >1050... at 100.00%
+1	8aa, >1113... *
+>Cluster 250
+0	7aa, >45... *
+>Cluster 251
+0	7aa, >99... *
+>Cluster 252
+0	7aa, >117... *
+>Cluster 253
+0	7aa, >120... *
+>Cluster 254
+0	7aa, >121... *
+>Cluster 255
+0	7aa, >162... *
+>Cluster 256
+0	7aa, >171... *
+>Cluster 257
+0	7aa, >183... *
+>Cluster 258
+0	7aa, >187... *
+>Cluster 259
+0	7aa, >191... *
+>Cluster 260
+0	7aa, >195... *
+>Cluster 261
+0	7aa, >225... *
+>Cluster 262
+0	7aa, >244... *
+>Cluster 263
+0	7aa, >254... *
+1	4aa, >669... at 100.00%
+>Cluster 264
+0	7aa, >259... *
+>Cluster 265
+0	7aa, >276... *
+>Cluster 266
+0	7aa, >297... *
+>Cluster 267
+0	7aa, >298... *
+1	5aa, >776... at 80.00%
+>Cluster 268
+0	7aa, >301... *
+>Cluster 269
+0	7aa, >329... *
+>Cluster 270
+0	7aa, >396... *
+>Cluster 271
 0	7aa, >423... *
->Cluster 983
-0	7aa, >569... *
->Cluster 984
-0	7aa, >700... *
->Cluster 985
+>Cluster 272
+0	6aa, >272... at 100.00%
+1	7aa, >475... *
+>Cluster 273
+0	7aa, >476... *
+>Cluster 274
+0	7aa, >484... *
+>Cluster 275
+0	7aa, >490... *
+>Cluster 276
+0	7aa, >496... *
+>Cluster 277
+0	7aa, >561... *
+1	5aa, >690... at 100.00%
+2	4aa, >733... at 100.00%
+>Cluster 278
+0	7aa, >609... *
+>Cluster 279
+0	7aa, >639... *
+>Cluster 280
+0	7aa, >678... *
+>Cluster 281
+0	7aa, >682... *
+>Cluster 282
+0	7aa, >695... *
+>Cluster 283
+0	7aa, >704... *
+>Cluster 284
+0	7aa, >712... *
+>Cluster 285
 0	7aa, >714... *
->Cluster 986
-0	7aa, >804... *
->Cluster 987
-0	7aa, >1016... *
->Cluster 988
-0	6aa, >13... *
->Cluster 989
-0	6aa, >238... *
->Cluster 990
-0	6aa, >344... *
->Cluster 991
-0	6aa, >361... *
->Cluster 992
-0	6aa, >483... *
->Cluster 993
+>Cluster 286
+0	7aa, >728... *
+>Cluster 287
+0	7aa, >757... *
+>Cluster 288
+0	7aa, >796... *
+>Cluster 289
+0	7aa, >799... *
+>Cluster 290
+0	7aa, >864... *
+>Cluster 291
+0	7aa, >866... *
+>Cluster 292
+0	7aa, >896... *
+>Cluster 293
+0	7aa, >899... *
+>Cluster 294
+0	7aa, >917... *
+>Cluster 295
+0	7aa, >944... *
+>Cluster 296
+0	7aa, >978... *
+>Cluster 297
+0	7aa, >980... *
+>Cluster 298
+0	7aa, >1068... *
+>Cluster 299
+0	7aa, >1080... *
+>Cluster 300
+0	7aa, >1082... *
+>Cluster 301
+0	7aa, >1084... *
+>Cluster 302
+0	7aa, >1100... *
+>Cluster 303
+0	5aa, >14... at 100.00%
+1	4aa, >41... at 100.00%
+2	7aa, >1115... *
+>Cluster 304
+0	6aa, >19... *
+>Cluster 305
+0	6aa, >42... *
+>Cluster 306
+0	6aa, >43... *
+>Cluster 307
+0	6aa, >44... *
+1	6aa, >228... at 83.33%
+2	6aa, >656... at 83.33%
+>Cluster 308
+0	6aa, >65... *
+>Cluster 309
+0	6aa, >67... *
+>Cluster 310
+0	6aa, >74... *
+>Cluster 311
+0	6aa, >76... *
+>Cluster 312
+0	6aa, >80... *
+>Cluster 313
+0	6aa, >81... *
+>Cluster 314
+0	6aa, >101... *
+>Cluster 315
+0	6aa, >111... *
+>Cluster 316
+0	6aa, >132... *
+>Cluster 317
+0	6aa, >140... *
+>Cluster 318
+0	6aa, >150... *
+>Cluster 319
+0	6aa, >165... *
+>Cluster 320
+0	6aa, >168... *
+>Cluster 321
+0	6aa, >213... *
+>Cluster 322
+0	6aa, >215... *
+>Cluster 323
+0	6aa, >234... *
+>Cluster 324
+0	6aa, >249... *
+1	5aa, >770... at 100.00%
+>Cluster 325
+0	6aa, >257... *
+>Cluster 326
+0	6aa, >262... *
+>Cluster 327
+0	6aa, >274... *
+>Cluster 328
+0	6aa, >294... *
+>Cluster 329
+0	5aa, >93... at 80.00%
+1	6aa, >300... *
+>Cluster 330
+0	6aa, >302... *
+>Cluster 331
+0	6aa, >307... *
+>Cluster 332
+0	6aa, >312... *
+>Cluster 333
+0	6aa, >342... *
+>Cluster 334
+0	6aa, >348... *
+>Cluster 335
+0	6aa, >363... *
+>Cluster 336
+0	6aa, >365... *
+>Cluster 337
+0	6aa, >380... *
+>Cluster 338
+0	6aa, >388... *
+>Cluster 339
+0	6aa, >392... *
+>Cluster 340
+0	6aa, >421... *
+>Cluster 341
+0	6aa, >444... *
+>Cluster 342
+0	6aa, >460... *
+>Cluster 343
+0	6aa, >477... *
+>Cluster 344
+0	6aa, >480... *
+>Cluster 345
 0	6aa, >494... *
->Cluster 994
-0	6aa, >535... *
->Cluster 995
-0	6aa, >652... *
->Cluster 996
-0	6aa, >664... *
->Cluster 997
-0	6aa, >669... *
->Cluster 998
-0	6aa, >881... *
->Cluster 999
-0	6aa, >1106... *
->Cluster 1000
-0	6aa, >1180... *
->Cluster 1001
-0	5aa, >599... *
+>Cluster 346
+0	6aa, >550... *
+>Cluster 347
+0	6aa, >554... *
+>Cluster 348
+0	6aa, >556... *
+>Cluster 349
+0	6aa, >565... *
+>Cluster 350
+0	6aa, >566... *
+>Cluster 351
+0	6aa, >574... *
+>Cluster 352
+0	6aa, >585... *
+>Cluster 353
+0	6aa, >611... *
+>Cluster 354
+0	6aa, >658... *
+>Cluster 355
+0	6aa, >668... *
+>Cluster 356
+0	6aa, >693... *
+>Cluster 357
+0	6aa, >697... *
+>Cluster 358
+0	6aa, >703... *
+>Cluster 359
+0	6aa, >716... *
+>Cluster 360
+0	6aa, >735... *
+>Cluster 361
+0	6aa, >743... *
+>Cluster 362
+0	6aa, >745... *
+>Cluster 363
+0	6aa, >758... *
+>Cluster 364
+0	6aa, >761... *
+>Cluster 365
+0	6aa, >762... *
+>Cluster 366
+0	6aa, >767... *
+>Cluster 367
+0	6aa, >778... *
+>Cluster 368
+0	6aa, >793... *
+>Cluster 369
+0	6aa, >800... *
+>Cluster 370
+0	6aa, >808... *
+>Cluster 371
+0	6aa, >813... *
+>Cluster 372
+0	6aa, >823... *
+>Cluster 373
+0	6aa, >852... *
+>Cluster 374
+0	6aa, >884... *
+>Cluster 375
+0	6aa, >913... *
+>Cluster 376
+0	6aa, >941... *
+>Cluster 377
+0	6aa, >942... *
+>Cluster 378
+0	6aa, >953... *
+>Cluster 379
+0	6aa, >971... *
+>Cluster 380
+0	6aa, >1022... *
+>Cluster 381
+0	6aa, >1025... *
+>Cluster 382
+0	6aa, >1034... *
+>Cluster 383
+0	6aa, >1066... *
+>Cluster 384
+0	4aa, >732... at 100.00%
+1	6aa, >1079... *
+2	5aa, >1097... at 100.00%
+>Cluster 385
+0	5aa, >6... *
+>Cluster 386
+0	5aa, >9... *
+>Cluster 387
+0	5aa, >18... *
+>Cluster 388
+0	5aa, >20... *
+>Cluster 389
+0	5aa, >22... *
+>Cluster 390
+0	5aa, >39... *
+>Cluster 391
+0	5aa, >46... *
+>Cluster 392
+0	5aa, >51... *
+>Cluster 393
+0	5aa, >57... *
+>Cluster 394
+0	5aa, >58... *
+>Cluster 395
+0	5aa, >70... *
+>Cluster 396
+0	5aa, >86... *
+>Cluster 397
+0	5aa, >87... *
+>Cluster 398
+0	5aa, >95... *
+1	4aa, >447... at 100.00%
+2	4aa, >624... at 100.00%
+>Cluster 399
+0	5aa, >97... *
+>Cluster 400
+0	5aa, >103... *
+>Cluster 401
+0	5aa, >116... *
+>Cluster 402
+0	5aa, >118... *
+>Cluster 403
+0	5aa, >124... *
+>Cluster 404
+0	5aa, >144... *
+>Cluster 405
+0	5aa, >148... *
+>Cluster 406
+0	5aa, >178... *
+>Cluster 407
+0	5aa, >193... *
+>Cluster 408
+0	5aa, >201... *
+>Cluster 409
+0	5aa, >205... *
+>Cluster 410
+0	5aa, >220... *
+>Cluster 411
+0	5aa, >229... *
+>Cluster 412
+0	5aa, >233... *
+>Cluster 413
+0	5aa, >239... *
+>Cluster 414
+0	5aa, >245... *
+>Cluster 415
+0	5aa, >263... *
+1	5aa, >372... at 80.00%
+>Cluster 416
+0	5aa, >277... *
+>Cluster 417
+0	5aa, >280... *
+>Cluster 418
+0	5aa, >299... *
+>Cluster 419
+0	5aa, >308... *
+>Cluster 420
+0	5aa, >354... *
+>Cluster 421
+0	5aa, >357... *
+>Cluster 422
+0	5aa, >373... *
+>Cluster 423
+0	5aa, >397... *
+>Cluster 424
+0	5aa, >409... *
+>Cluster 425
+0	4aa, >12... at 100.00%
+1	5aa, >414... *
+>Cluster 426
+0	5aa, >416... *
+>Cluster 427
+0	5aa, >418... *
+>Cluster 428
+0	5aa, >433... *
+>Cluster 429
+0	5aa, >442... *
+>Cluster 430
+0	5aa, >455... *
+>Cluster 431
+0	5aa, >464... *
+>Cluster 432
+0	5aa, >470... *
+>Cluster 433
+0	5aa, >491... *
+1	5aa, >911... at 80.00%
+>Cluster 434
+0	5aa, >509... *
+>Cluster 435
+0	5aa, >515... *
+>Cluster 436
+0	5aa, >520... *
+>Cluster 437
+0	5aa, >535... *
+>Cluster 438
+0	5aa, >553... *
+>Cluster 439
+0	5aa, >555... *
+>Cluster 440
+0	5aa, >573... *
+>Cluster 441
+0	5aa, >603... *
+>Cluster 442
+0	5aa, >605... *
+>Cluster 443
+0	5aa, >627... *
+>Cluster 444
+0	5aa, >630... *
+>Cluster 445
+0	5aa, >648... *
+>Cluster 446
+0	5aa, >692... *
+>Cluster 447
+0	5aa, >705... *
+1	4aa, >947... at 100.00%
+>Cluster 448
+0	5aa, >708... *
+>Cluster 449
+0	5aa, >715... *
+>Cluster 450
+0	5aa, >726... *
+>Cluster 451
+0	5aa, >730... *
+>Cluster 452
+0	5aa, >736... *
+>Cluster 453
+0	5aa, >780... *
+>Cluster 454
+0	5aa, >784... *
+>Cluster 455
+0	5aa, >788... *
+>Cluster 456
+0	5aa, >795... *
+>Cluster 457
+0	5aa, >802... *
+>Cluster 458
+0	5aa, >804... *
+>Cluster 459
+0	5aa, >805... *
+>Cluster 460
+0	5aa, >821... *
+>Cluster 461
+0	5aa, >829... *
+>Cluster 462
+0	5aa, >830... *
+>Cluster 463
+0	5aa, >841... *
+>Cluster 464
+0	5aa, >860... *
+>Cluster 465
+0	5aa, >865... *
+>Cluster 466
+0	5aa, >877... *
+>Cluster 467
+0	5aa, >878... *
+>Cluster 468
+0	5aa, >887... *
+>Cluster 469
+0	5aa, >898... *
+>Cluster 470
+0	5aa, >907... *
+>Cluster 471
+0	5aa, >909... *
+>Cluster 472
+0	5aa, >914... *
+>Cluster 473
+0	5aa, >936... *
+>Cluster 474
+0	5aa, >943... *
+>Cluster 475
+0	5aa, >957... *
+>Cluster 476
+0	5aa, >966... *
+>Cluster 477
+0	5aa, >968... *
+>Cluster 478
+0	5aa, >977... *
+>Cluster 479
+0	5aa, >986... *
+>Cluster 480
+0	5aa, >987... *
+>Cluster 481
+0	5aa, >1018... *
+>Cluster 482
+0	5aa, >1058... *
+>Cluster 483
+0	5aa, >1076... *
+>Cluster 484
+0	5aa, >1091... *
+>Cluster 485
+0	5aa, >1117... *
+>Cluster 486
+0	4aa, >28... *
+>Cluster 487
+0	4aa, >35... *
+>Cluster 488
+0	4aa, >56... *
+>Cluster 489
+0	4aa, >62... *
+>Cluster 490
+0	4aa, >77... *
+>Cluster 491
+0	4aa, >85... *
+>Cluster 492
+0	4aa, >89... *
+>Cluster 493
+0	4aa, >98... *
+>Cluster 494
+0	4aa, >102... *
+>Cluster 495
+0	4aa, >105... *
+>Cluster 496
+0	4aa, >107... *
+>Cluster 497
+0	4aa, >127... *
+>Cluster 498
+0	4aa, >129... *
+>Cluster 499
+0	4aa, >137... *
+>Cluster 500
+0	4aa, >169... *
+>Cluster 501
+0	4aa, >181... *
+>Cluster 502
+0	4aa, >190... *
+>Cluster 503
+0	4aa, >199... *
+>Cluster 504
+0	4aa, >211... *
+>Cluster 505
+0	4aa, >232... *
+>Cluster 506
+0	4aa, >235... *
+>Cluster 507
+0	4aa, >237... *
+>Cluster 508
+0	4aa, >269... *
+>Cluster 509
+0	4aa, >284... *
+>Cluster 510
+0	4aa, >287... *
+>Cluster 511
+0	4aa, >304... *
+>Cluster 512
+0	4aa, >306... *
+>Cluster 513
+0	4aa, >315... *
+>Cluster 514
+0	4aa, >346... *
+>Cluster 515
+0	4aa, >359... *
+>Cluster 516
+0	4aa, >369... *
+>Cluster 517
+0	4aa, >375... *
+>Cluster 518
+0	4aa, >377... *
+>Cluster 519
+0	4aa, >398... *
+>Cluster 520
+0	4aa, >399... *
+>Cluster 521
+0	4aa, >402... *
+>Cluster 522
+0	4aa, >403... *
+>Cluster 523
+0	4aa, >427... *
+>Cluster 524
+0	4aa, >441... *
+>Cluster 525
+0	4aa, >443... *
+>Cluster 526
+0	4aa, >446... *
+>Cluster 527
+0	4aa, >449... *
+>Cluster 528
+0	4aa, >466... *
+>Cluster 529
+0	4aa, >473... *
+>Cluster 530
+0	4aa, >479... *
+>Cluster 531
+0	4aa, >481... *
+>Cluster 532
+0	4aa, >531... *
+>Cluster 533
+0	4aa, >540... *
+>Cluster 534
+0	4aa, >541... *
+>Cluster 535
+0	4aa, >544... *
+>Cluster 536
+0	4aa, >546... *
+>Cluster 537
+0	4aa, >559... *
+>Cluster 538
+0	4aa, >577... *
+>Cluster 539
+0	4aa, >592... *
+>Cluster 540
+0	4aa, >594... *
+>Cluster 541
+0	4aa, >596... *
+>Cluster 542
+0	4aa, >598... *
+>Cluster 543
+0	4aa, >602... *
+>Cluster 544
+0	4aa, >604... *
+>Cluster 545
+0	4aa, >626... *
+>Cluster 546
+0	4aa, >631... *
+>Cluster 547
+0	4aa, >641... *
+>Cluster 548
+0	4aa, >644... *
+>Cluster 549
+0	4aa, >650... *
+>Cluster 550
+0	4aa, >665... *
+>Cluster 551
+0	4aa, >679... *
+>Cluster 552
+0	4aa, >683... *
+>Cluster 553
+0	4aa, >688... *
+>Cluster 554
+0	4aa, >691... *
+>Cluster 555
+0	4aa, >717... *
+>Cluster 556
+0	4aa, >720... *
+>Cluster 557
+0	4aa, >738... *
+>Cluster 558
+0	4aa, >741... *
+>Cluster 559
+0	4aa, >779... *
+>Cluster 560
+0	4aa, >787... *
+>Cluster 561
+0	4aa, >811... *
+>Cluster 562
+0	4aa, >842... *
+>Cluster 563
+0	4aa, >844... *
+>Cluster 564
+0	4aa, >879... *
+>Cluster 565
+0	4aa, >882... *
+>Cluster 566
+0	4aa, >885... *
+>Cluster 567
+0	4aa, >889... *
+>Cluster 568
+0	4aa, >902... *
+>Cluster 569
+0	4aa, >923... *
+>Cluster 570
+0	4aa, >925... *
+>Cluster 571
+0	4aa, >931... *
+>Cluster 572
+0	4aa, >933... *
+>Cluster 573
+0	4aa, >935... *
+>Cluster 574
+0	4aa, >958... *
+>Cluster 575
+0	4aa, >960... *
+>Cluster 576
+0	4aa, >965... *
+>Cluster 577
+0	4aa, >982... *
+>Cluster 578
+0	4aa, >983... *
+>Cluster 579
+0	4aa, >995... *
+>Cluster 580
+0	4aa, >998... *
+>Cluster 581
+0	4aa, >1000... *
+>Cluster 582
+0	4aa, >1002... *
+>Cluster 583
+0	4aa, >1027... *
+>Cluster 584
+0	4aa, >1029... *
+>Cluster 585
+0	4aa, >1030... *
+>Cluster 586
+0	4aa, >1075... *
+>Cluster 587
+0	4aa, >1078... *
+>Cluster 588
+0	4aa, >1092... *
+>Cluster 589
+0	4aa, >1093... *
+>Cluster 590
+0	4aa, >1104... *
+>Cluster 591
+0	4aa, >1110... *
+>Cluster 592
+0	4aa, >1111... *
+>Cluster 593
+0	4aa, >1114... *
+>Cluster 594
+0	4aa, >1122... *
