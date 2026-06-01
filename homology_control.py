@@ -1,4 +1,4 @@
-from utils import load_dataframe
+import os
 
 def create_fasta_files(train_df, test_df):
     with open("hm_cntrl/train_peptides.fasta", "w") as f:
@@ -9,12 +9,9 @@ def create_fasta_files(train_df, test_df):
         for idx, row in test_df.iterrows():
             f.write(f">{idx}\n{row.sequence}\n")
 
-# cd-hit -i train_peptides.fasta -o train_clustered -c 0.7 -n 4
-# cd-hit -i test_peptides.fasta -o test_clustered -c 0.7 -n 4 -l 3
-
-# "train_clustered.clstr"
-
 def create_cluster(dataframe):
+    os.system('cd-hit -i hm_cntrl/train_peptides.fasta -o train_clustered -c 0.7 -n 4 -l 3')
+
     cluster_map = {}
     cluster_id = None
 
